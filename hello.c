@@ -5,7 +5,3 @@ int main()
     printf("Hello World\n");
     return 0;
 }
-
-
-`1
-1
