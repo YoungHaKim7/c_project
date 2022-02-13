@@ -2,10 +2,12 @@
 
 int main()
 {
-    printf
-    (
-        "Hello World\n"
-    )
-    ;
+    int a, b;
+    printf("Enter number a ");
+    scanf("%d", &a);
+
+    printf("Enter number b");
+    scanf("%d", &b);
+
     return 0;
 }
