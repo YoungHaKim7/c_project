@@ -13,9 +13,9 @@ int main()
     long double myfloat2 = 7.43453455; //10 bytes - 19 decimal places precision
     char c = 't'; // 1byte
 
-    printf("The size taken by int is %d", sizeof(int));
+    scanf_s("The size taken by int is %d", sizeof(int));
 
-    printf("hello %c", c);
+    scanf_s("hello %d", c);
     return 0;
         
 }
