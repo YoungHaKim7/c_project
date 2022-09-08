@@ -17,9 +17,9 @@ int main (int argc, char** argv) {
     printf("SCRT_MAX     :    %d\n", SHRT_MAX);
     printf("SCRT_MIN     :    %d\n", SHRT_MIN);
     printf("UCHAR_MAX     :    %d\n", UCHAR_MAX);
-    printf("UINT_MAX     :    %d\n",(unsigned int) UCHAR_MAX);
-    printf("ULONG_MAX     :    %d\n",(unsigned long) ULONG_MAX);
-    printf("USHRT_MAX     :    %d\n",(unsigned long) USHRT_MAX);
+    printf("UINT_MAX     :    %u\n",(unsigned int) UINT_MAX);
+    printf("ULONG_MAX     :    %lu\n",(unsigned long) ULONG_MAX);
+    printf("USHRT_MAX     :    %d\n",(unsigned short) USHRT_MAX);
 
     return 0;
 
