@@ -1,12 +1,10 @@
-## C Program in Hindi: C Tutorial In Hindi
+# Wikipedia \_\_ Stack
 
-[Basic Structure of C Program in Hindi](https://www.youtube.com/watch?v=5SIBB589fAg&t=424s)
+https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%9D#:~:text=%EC%8A%A4%ED%83%9D(stack)%EC%9D%80%20%EC%A0%9C%ED%95%9C%EC%A0%81%EC%9C%BC%EB%A1%9C,(Pushdown%20list)%EC%9D%B4%EB%9D%BC%EA%B3%A0%EB%8F%84%20%ED%95%9C%EB%8B%A4.
 
-<br>
+출처: https://economiceco.tistory.com/15003 [경제PLUS:티스토리]
 
 # 자료 구조
-
-https://github.com/YoungHaKim7/c_project/tree/main/exercise/002stack
 
 - 영어 출처
   https://en.wikipedia.org/wiki/Association_list
@@ -47,3 +45,18 @@ Associative array(Multimap, Retrieval Data Structure), List, StackQueue(Double-e
         <td>이진 결정 다이어그램<br>Binary decision diagram, Directed acyclic graph, Directed acyclic word graph </td>
     </tr>
 </table>
+
+# 자료 구조 그림으로 이해
+
+[Circular Linked List](https://www.programiz.com/dsa/circular-linked-list)
+
+# 자료 구조 Code
+
+<table border="1">
+    <tr>
+    <td colspan="2" align="center">자료 구조</td>
+    </tr>
+</table>
+- dynamic array
+
+[Dynamic array](https://stackoverflow.com/questions/41266109/dynamic-allocation-of-array-issue-c)
