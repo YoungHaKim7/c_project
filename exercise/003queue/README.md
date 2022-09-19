@@ -5,6 +5,10 @@
 
 <br>
 
+- [Data Structure** C Language** Jacob Sorber](https://youtube.com/playlist?list=PL9IEJIKnBJjFiudyP6wSXmykrn67Ykqib)
+
+<br>
+
 # 자료 구조
 
 - 영어 출처
