@@ -1,3 +1,15 @@
+# working with strings in rust
+
+https://fasterthanli.me/articles/working-with-strings-in-rust
+
+<br>
+
+# How to return static str? (Rust user.rust-lang)
+
+https://users.rust-lang.org/t/how-to-return-static-str/83850/34
+
+<br>
+
 # result :
 
 ```
