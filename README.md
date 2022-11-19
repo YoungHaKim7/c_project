@@ -24,7 +24,7 @@ rm -rf main main.dSYM
 
 https://www.tutorialspoint.com/unix_commands/xxd.htm
 
-- 예시 exercise/004string.c 참고
+- 예시 exercise/004string/main.c 참고
 
 ```
 $ ./main "ready" "set" "go" | xxd -g 1
