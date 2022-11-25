@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
   x = x + 51521;
   x = x - 513;
   x = x / 2;
-  x = x & 14212
+  x = x & 14212;
   
   printf("x == %d\n", x);
   
