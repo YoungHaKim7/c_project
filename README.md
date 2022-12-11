@@ -107,3 +107,17 @@ Associative array(Multimap, Retrieval Data Structure), List, StackQueue(Double-e
         <td>이진 결정 다이어그램<br>Binary decision diagram, Directed acyclic graph, Directed acyclic word graph </td>
     </tr>
 </table>
+
+<br>
+
+<hr>
+
+# Big-O Cheat Sheet(그림으로 이쁘게)
+
+https://dev.to/deciduously/big-o-cheat-sheet-3i7d
+
+<br>
+
+<br>
+
+<hr>
