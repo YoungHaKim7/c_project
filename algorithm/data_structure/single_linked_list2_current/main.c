@@ -12,10 +12,10 @@ int main() {
   head->link = NULL;
 
   struct node *current = malloc(sizeof(struct node));
-  head->data = 98;
-  head->link = NULL;
+  current->data = 98;
+  current->link = NULL;
 
-  printf("%d\n", head->data);
+  printf("%d\n", current->data);
   return 0;
 }
 
