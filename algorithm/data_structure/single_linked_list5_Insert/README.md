@@ -1,6 +1,6 @@
-#  Creating a Single Linked List (Part 1)
+# Single Linked List (Inserting a Node at the Beginning)
 
-https://youtu.be/nxtDe6Gq4t4
+https://youtu.be/jgqg6Qw68_Q
 
 <br>
 
@@ -18,7 +18,8 @@ https://youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM
   
 $ ./main
 
-98
+3 45 98 %
+
 
 ```
 
