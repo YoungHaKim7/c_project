@@ -12,3 +12,14 @@ https://youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM
 <br>
 
 <hr>
+
+# Result :
+
+```
+  
+$ ./main
+
+45
+
+```
+
