@@ -20,6 +20,10 @@ https://youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM
 
 clang -pthread -lm -Wall -Wextra -ggdb -o main main.c
 
+or 
+
+gcc -pthread -lm -Wall -Wextra -ggdb -o main main.c
+
 ```
 
 <br>
