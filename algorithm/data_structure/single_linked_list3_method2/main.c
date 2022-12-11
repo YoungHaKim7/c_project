@@ -26,8 +26,12 @@ int main() {
   return 0;
 }
 
-// Head ->link -> link => 3000
-// Head ->link -> link ->link => NULL
+// head ->link => 1000   / 1번째 노드 접근
+// head ->link->link => 2000   / 2번째 노드 접근
+// head ->link -> link => 3000 / 3번째 노드 접근
+// head ->link -> link ->link => NULL
+// head ->link->link = current; / 3번째 노드 접근
+// https://youtu.be/HrY_YmU1vdg
 // result:
 // $ ./main
 // 3
