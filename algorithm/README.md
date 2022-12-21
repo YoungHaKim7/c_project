@@ -40,3 +40,9 @@ X - X - X
 <hr>
 
 <br>
+
+# [📌연결 리스트 완전 정복 10] 이중 연결 리스트(doubly linked list) 역순 연결
+
+<br>
+
+https://youtu.be/bWJma-gywpQ
