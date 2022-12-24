@@ -34,7 +34,13 @@ https://youtu.be/w3_e9vZj7D8
 
 <br>
 
-# C Language Tutorial Videos 3
+# Modern C and What We Can Learn From It - Luca Sas [ ACCU 2021 ]
+
+https://youtu.be/QpAhX-gsHMs
+
+<br>
+
+# C Language Tutorial Videos 
 
 https://youtube.com/playlist?list=PLVlQHNRLflP8IGz6OXwlV_lgHgc72aXlh
 
