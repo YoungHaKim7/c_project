@@ -21,9 +21,16 @@ https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
 
 <br>
 
-# How I program C ___ 2
+# How I program C | Eskil Steenberg ___ 2
 
 https://youtu.be/443UNeGrFoM
+
+<br>
+
+# Advanced C: The UB and optimizations that trick good programmers. | Eskil Steenberg
+
+https://youtu.be/w3_e9vZj7D8
+
 
 <br>
 
