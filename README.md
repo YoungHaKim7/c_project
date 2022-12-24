@@ -13,6 +13,22 @@ https://youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM
 
 <hr>
 
+<br>
+
+# C Language Tutorials In Hindi __ 1
+
+https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
+
+<br>
+
+# C Language Tutorial Videos 2
+
+https://youtube.com/playlist?list=PLVlQHNRLflP8IGz6OXwlV_lgHgc72aXlh
+
+<br>
+
+<hr>
+
 # build.sh
 
 ```
