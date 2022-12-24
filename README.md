@@ -21,7 +21,13 @@ https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
 
 <br>
 
-# C Language Tutorial Videos 2
+# How I program C ___ 2
+
+https://youtu.be/443UNeGrFoM
+
+<br>
+
+# C Language Tutorial Videos 3
 
 https://youtube.com/playlist?list=PLVlQHNRLflP8IGz6OXwlV_lgHgc72aXlh
 
