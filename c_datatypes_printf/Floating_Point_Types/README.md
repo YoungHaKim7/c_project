@@ -12,22 +12,33 @@ https://www.tutorialspoint.com/cprogramming/c_data_types.htm
   
 $ ./main
 
-CHAR_BIT    : 8
-CHAR_MAX    : 127
-CHAR_MIN    : -128
-INT_MAX    : 2147483647
-INT_MIN    : -2147483648
-LONG_MAX    : 9223372036854775807
-LONG_MIN    : -9223372036854775808
-SCHAR_MAX    : 127
-SCHAR_MIN    : -128
-SHRT_MAX    : 32767
-SHRT_MIN    : -32768
-UCHAR_MAX    : 255
-UINT_MAX    : 4294967295
-ULONG_MAX    : 18446744073709551615
-USHRT_MAX    : 65535
+Storage size for float : 4
+Storage size for double : 8
+FLT_MAX      : 3.40282e+38
+FLT_MIN      : 1.17549e-38
+-FLT_MAX     : -3.40282e+38
+-FLT_MIN     : -1.17549e-38
+DBL_MAX      : 1.79769e+308
+DBL_MIN      : 2.22507e-308
+-DBL_MAX     : -1.79769e+308
+Precision value: 6
 
+Alpha/Intel64 programming model, LP64, S16, I32
+sizeof (_Bool): 1 bits
+sizeof (char): 8 bits
+sizeof (unsigned char): 8 bits
+sizeof (short): 16 bits
+sizeof (unsigned short): 16 bits
+sizeof (int): 32 bits
+sizeof (unsigned int): 32 bits
+sizeof (long): 64 bits
+sizeof (unsigned long): 64 bits
+sizeof (float): 32 bits
+sizeof (double): 64 bits
+sizeof (long double): 64 bits
+sizeof (void*): 64 bits
 
 ```
 
+
+https://www.quora.com/What-is-the-size-of-long-double-in-C-programming
