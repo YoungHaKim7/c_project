@@ -13,3 +13,12 @@ https://youtu.be/_HGkhvpCbsk
 
 <br>
 
+
+# Mini Excel in C
+
+https://youtube.com/playlist?list=PLpM-Dvs8t0VYfQc5dq21Vc81G1rGHwkmT
+
+<br>
+
+
+<br>
