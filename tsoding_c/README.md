@@ -4,3 +4,12 @@
   https://youtu.be/WEk_grxrCcg
 
 Source Code: https://github.com/tsoding/perceptron
+
+<br>
+
+# What is Relative Pointers?
+
+https://youtu.be/_HGkhvpCbsk
+
+<br>
+
