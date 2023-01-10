@@ -1,3 +1,12 @@
+# C Dynamic Memory Debugging with Valgrind
+
+https://youtu.be/bb1bTJtgXrI
+
+
+<br>
+
+<hr>
+
 # valgrind --leak-check=yes ./a.out
 
 
