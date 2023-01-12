@@ -1,70 +1,102 @@
+# every good programmer should know how to code this data structure (its easy)
+
+<br>
+
+https://youtu.be/dti0F7w3yOQ
+
+<br>
+
+<hr>
+
 # valgrind --leak-check=yes ./a.out
 
 
-- include "malloc_linux.h" 교체 후 리눅스에서 실행
-
-- gcc main.c
-
 ```
 valgrind --leak-check=yes ./a.out
-==1127== Memcheck, a memory error detector
-==1127== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==1127== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
-==1127== Command: ./a.out
-==1127==
-543215421==1127==
-==1127== HEAP SUMMARY:
-==1127==     in use at exit: 64 bytes in 4 blocks
-==1127==   total heap usage: 6 allocs, 2 frees, 1,104 bytes allocated
-==1127==
-==1127== 64 (16 direct, 48 indirect) bytes in 1 blocks are definitely lost in loss record 2 of 2
-==1127==    at 0x4849D8C: malloc (vg_replace_malloc.c:309)
-==1127==    by 0x1088E7: add (in /home/ubuntu/Home/linux_c_project/linked_list/a.out)
-==1127==    by 0x108B03: main (in /home/ubuntu/Home/linux_c_project/linked_list/a.out)
-==1127==
-==1127== LEAK SUMMARY:
-==1127==    definitely lost: 16 bytes in 1 blocks
-==1127==    indirectly lost: 48 bytes in 3 blocks
-==1127==      possibly lost: 0 bytes in 0 blocks
-==1127==    still reachable: 0 bytes in 0 blocks
-==1127==         suppressed: 0 bytes in 0 blocks
-==1127==
-==1127== For lists of detected and suppressed errors, rerun with: -s
-==1127== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+
+
+$ ./build.sh
+main.c: In function 'main':
+main.c:85:27: warning: unused variable 'new' [-Wunused-variable]
+   85 |                     Node *new = addNode(option);
+      |                           ^~~
+main.c:71:14: warning: unused parameter 'argc' [-Wunused-parameter]
+   71 | int main(int argc, char **argv)
+      |          ~~~~^~~~
+main.c:71:27: warning: unused parameter 'argv' [-Wunused-parameter]
+   71 | int main(int argc, char **argv)
+      |                    ~~~~~~~^~~~
+❯ valgrind --leak-check=yes ./main
+==14629== Memcheck, a memory error detector
+==14629== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14629== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==14629== Command: ./main
+==14629== 
+You have the following options: 
+        1. Add a node to the list.
+        2. Remove a node to the list.
+        3. Insert a node to the list.
+        4. Print your list.
+        5. Quit. 
+1
+WHat data should I insert? : 
+2323
+You have the following options: 
+        1. Add a node to the list.
+        2. Remove a node to the list.
+        3. Insert a node to the list.
+        4. Print your list.
+        5. Quit. 
+3
+You have the following options: 
+        1. Add a node to the list.
+        2. Remove a node to the list.
+        3. Insert a node to the list.
+        4. Print your list.
+        5. Quit. 
+4545
+You have the following options: 
+        1. Add a node to the list.
+        2. Remove a node to the list.
+        3. Insert a node to the list.
+        4. Print your list.
+        5. Quit. 
+1
+WHat data should I insert? : 
+232323231
+You have the following options: 
+        1. Add a node to the list.
+        2. Remove a node to the list.
+        3. Insert a node to the list.
+        4. Print your list.
+        5. Quit. 
+4
+232323231->2323->
+You have the following options: 
+        1. Add a node to the list.
+        2. Remove a node to the list.
+        3. Insert a node to the list.
+        4. Print your list.
+        5. Quit. 
+5
+==14629== 
+==14629== HEAP SUMMARY:
+==14629==     in use at exit: 32 bytes in 2 blocks
+==14629==   total heap usage: 4 allocs, 2 frees, 2,080 bytes allocated
+==14629== 
+==14629== LEAK SUMMARY:
+==14629==    definitely lost: 0 bytes in 0 blocks
+==14629==    indirectly lost: 0 bytes in 0 blocks
+==14629==      possibly lost: 0 bytes in 0 blocks
+==14629==    still reachable: 32 bytes in 2 blocks
+==14629==         suppressed: 0 bytes in 0 blocks
+==14629== Reachable blocks (those to which a pointer was found) are not shown.
+==14629== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14629== 
+==14629== For lists of detected and suppressed errors, rerun with: -s
+==14629== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
 
 ```
 
-
-# c언어로 만든 싱글 링크드 리스트 linked list ( 추가, 삽입 , 삭제) 백지부터 설명 시작
-
-https://youtu.be/3ZdafcIvREw
-
-<br>
-
-<hr>
-
-# Creating the Node of a Single Linked List
-
-https://youtu.be/DneLxrPmmsw
-
-<br>
-
-
-## C Programming & Data Structures Series
-
-https://youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM
-
-<br>
-
-<hr>
-
-# Result :
-
-```
-  
-$ ./main
-
-45
-
-```
 
