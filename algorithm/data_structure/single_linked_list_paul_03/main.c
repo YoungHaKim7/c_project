@@ -43,6 +43,10 @@ Node *find(Node *head, Node *tail, int data)
 // Node *n = Address of note to delete
 void del(Node **head, Node **tail, Node *n)
 {
+    if(n == NULL) {
+        printf("No Data in link \n");
+        return;
+    }
   Node *temp = *head;
   while (temp->next != n)
   {
@@ -76,7 +80,7 @@ int main()
     add(&head, &tail, i + 1);
   }
   printList(head, tail);
-  del(&head, &tail, find(head, tail, 3));
+  del(&head, &tail, find(head, tail, 5));
   printList(head, tail);
   return 0;
 }
