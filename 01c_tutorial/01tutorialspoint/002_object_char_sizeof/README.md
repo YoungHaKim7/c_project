@@ -1,5 +1,6 @@
 # Result:
 
+```
 CHAR_BIT    :   8
 CHAR_MAX    :   127
 CHAR_MIN    :   -128
@@ -15,3 +16,4 @@ UCHAR_MAX   :   255
 UINT_MAX    :   4294967295
 ULONG_MAX   :   4294967295
 USHRT_MAX   :   65535
+```
