@@ -79,3 +79,16 @@ Consider using ```-Weverything``` and disabling the few warnings you need to on 
 
 
 https://github.com/cpp-best-practices/cppbestpractices/blob/master/02-Use_the_Tools_Available.md
+
+
+<br>
+
+<hr>
+
+<br>
+
+# Exercises for PULP hands-on trainings
+
+https://github.com/pulp-platform/pulp-training
+
+https://github.com/pulp-platform/pulp-training
