@@ -1,3 +1,7 @@
+# c-language(MS)
+
+https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170
+
 # MicroSoft Learn (Sameples C)
 
 https://learn.microsoft.com/en-us/samples/browse/?languages=c
