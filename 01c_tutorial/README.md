@@ -18,6 +18,10 @@ https://www.tutorialspoint.com/cprogramming/
 
 ["Let us C - Yashavant Kanetkar (PDF) (🗃️ latest 14th edition)](https://ia903402.us.archive.org/1/items/let-us-c/LET%20US%20C.pdf)
 
+# C language Syntax Summary(MS)
+
+https://learn.microsoft.com/en-us/cpp/c-language/c-language-syntax-summary?view=msvc-170
+
 # Compilers
 
 Use every available and reasonable set of warning options. Some warning options only work with optimizations enabled, or work better the higher the chosen level of optimization is, for example 
