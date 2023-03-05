@@ -1,3 +1,10 @@
+# vim tab setting
+
+```
+set tabstop=2
+set shiftwidth=2
+```
+
 # c-language(MS)
 
 https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170
