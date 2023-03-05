@@ -22,6 +22,10 @@ https://www.tutorialspoint.com/cprogramming/
 
 https://learn.microsoft.com/en-us/cpp/c-language/c-language-syntax-summary?view=msvc-170
 
+# Intro to Systems Programming, the C Language, and Tools for Software
+
+https://youtube.com/playlist?list=PLKUb7MEve0TjHQSKUWChAWyJPCpYMRovO
+
 # C Programming - 2021 || Hands-on
 
 https://youtube.com/playlist?list=PLf2x9zGTmznByH3T_cakNCU1w73Lv9t4v
