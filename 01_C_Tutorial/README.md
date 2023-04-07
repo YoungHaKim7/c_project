@@ -6,6 +6,10 @@ https://llvm.org/
 
 <hr>
 
+# C Language Tutorials In Hindi
+
+https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
+
 # C Languages Tutorial
 
 https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#c
