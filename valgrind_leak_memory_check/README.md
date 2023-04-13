@@ -5,6 +5,13 @@ https://youtu.be/bb1bTJtgXrI
 
 <br>
 
+```
+valgrind --leak-check=full ./mem_leak.out
+
+
+valgrind --leak-check=yes ./main
+```
+
 <hr>
 
 # valgrind --leak-check=yes ./a.out
