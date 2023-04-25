@@ -5,6 +5,10 @@ set tabstop=2
 set shiftwidth=2
 ```
 
+# C / C++ | freeCodeCamp.org
+
+https://youtube.com/playlist?list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m
+
 # Microsoft C++, C, and Assembler documentation(C MSDN)
 
 - Learn how to use C++, C, and assembly language to develop applications, services, and tools for your platforms and devices.
