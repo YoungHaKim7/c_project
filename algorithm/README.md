@@ -17,6 +17,33 @@ void addFirst(int val)
 
 <img src="https://github.com/YoungHaKim7/c_project/blob/main/algorithm/images/test1.gif" />
 
+<br>
+
+<hr>
+
+```c
+void mirror(struct node *root){
+    if(root == NULL)
+        return;
+    else
+    {
+        mirror(root->left);
+        mirror(root->right);
+
+        struct node *temp = root->left;
+        root->left = root->right;
+        root->right = temp;
+    }
+}
+    
+```
+
+<img src="https://github.com/YoungHaKim7/c_project/blob/main/algorithm/images/test2.gif" />
+
+<br>
+
+<hr>
+
 
 https://log2base2.com/
 
