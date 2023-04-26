@@ -2,6 +2,23 @@
 
 https://log2base2.com/
 
+```c
+struct node *head = NULL;
+void addFirst(int val)
+{
+    struct node *newNode = malloc(sizeof(struct node));
+    newNode->data = val;
+    newNode->next = head;
+
+    head = newNode;
+}
+
+```
+
+
+
+https://log2base2.com/
+
 # Introduction to Programming and Data Structures
 
 https://youtu.be/4OGMB4Fhh50
