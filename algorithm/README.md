@@ -50,25 +50,23 @@ void mirror(struct node *root){
 <hr>
 
 ```c
-void mirror(struct node *root){
-    if(root == NULL)
-        return;
-    else
-    {
-        mirror(root->left);
-        mirror(root->right);
+int *prt;
 
-        struct node *temp = root->left;
-        root->left = root->right;
-        root->right = temp;
-    }
-}
+ptr = malloc(5 * sizeof(int));
+
+ptr = realloc(ptr, 2 * sizeof(int));
+ptr = realloc(ptr, 6 * sizeof(int));
     
 ```
+
+<img src="https://github.com/YoungHaKim7/c_project/blob/main/algorithm/images/test3.gif" />
+
 
 <br>
 
 <hr>
+
+11
 
 ```c
 
