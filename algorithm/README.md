@@ -66,20 +66,14 @@ ptr = realloc(ptr, 6 * sizeof(int));
 
 <hr>
 
-11
 
-```c
+<img src="https://github.com/YoungHaKim7/c_project/blob/main/algorithm/images/test4.gif" />
 
-int *prt;
+<br>
 
-ptr = malloc(5 * sizeof(int));
+<hr>
 
-ptr = realloc(ptr, 2 * sizeof(int));
-ptr = realloc(ptr, 6 * sizeof(int));
-    
-```
-
-<img src="https://github.com/YoungHaKim7/c_project/blob/main/algorithm/images/test3.gif" />
+<img src="https://github.com/YoungHaKim7/c_project/blob/main/algorithm/images/test5.gif" />
 
 <br>
 
