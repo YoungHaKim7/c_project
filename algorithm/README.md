@@ -14,7 +14,8 @@ void addFirst(int val)
 }
 
 ```
-[newNodeC](https://github.com/YoungHaKim7/c_project/blob/main/algorithm/images/test1.gif)
+
+<img src="https://github.com/YoungHaKim7/c_project/blob/main/algorithm/images/test1.gif" />
 
 
 https://log2base2.com/
