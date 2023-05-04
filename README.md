@@ -5,6 +5,8 @@ set tabstop=2
 set shiftwidth=2
 ```
 
+<hr>
+
 # C / C++ | freeCodeCamp.org
 
 https://youtube.com/playlist?list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m
@@ -27,6 +29,8 @@ https://learn.microsoft.com/en-us/samples/browse/?languages=c
 # Smile Han의 C 언어 프로그래밍
 
 https://youtube.com/playlist?list=PLJqaIeuL7nuFgbxCyhtZ7xBUNhdV9Qy5R
+
+<hr>
 
 # The LLVM Compiler Infrastructure 
 
