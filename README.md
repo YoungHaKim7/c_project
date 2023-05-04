@@ -19,9 +19,14 @@ https://learn.microsoft.com/en-us/cpp/?view=msvc-170
 
 https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170
 
-# MicroSoft Learn (Sameples C)
+# MicroSoft Learn (Samples C)
 
 https://learn.microsoft.com/en-us/samples/browse/?languages=c
+
+
+# Smile Han의 C 언어 프로그래밍
+
+https://youtube.com/playlist?list=PLJqaIeuL7nuFgbxCyhtZ7xBUNhdV9Qy5R
 
 # The LLVM Compiler Infrastructure 
 
