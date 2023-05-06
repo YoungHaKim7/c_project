@@ -1,3 +1,7 @@
+# Big-o-Cheat-sheet
+
+![big-o-cheat-sheet-poster](https://user-images.githubusercontent.com/67513038/236633081-7365b27e-a749-4b27-b8bd-717dd3911e76.png)
+
 # 유료) 그림으로 알고리즘 이랑 코드 비교해서 알려줌 최고
 
 https://log2base2.com/
