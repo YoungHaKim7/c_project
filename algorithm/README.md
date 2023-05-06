@@ -4,6 +4,8 @@
 
 ![bio-o-](https://user-images.githubusercontent.com/67513038/236633173-26995f68-24df-46ec-92df-ef6204d7ec7c.png)
 
+## Big-O Cheat Sheet(그림으로 이쁘게) https://dev.to/deciduously/big-o-cheat-sheet-3i7d
+
 # 유료) 그림으로 알고리즘 이랑 코드 비교해서 알려줌 최고
 
 https://log2base2.com/
