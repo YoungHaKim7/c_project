@@ -7,6 +7,9 @@ set shiftwidth=2
 
 <hr>
 
+# C Programming Full Course for free 🕹️ (4hr)
+https://youtu.be/87SH2Cn0s9A
+
 # C / C++ | freeCodeCamp.org
 
 https://youtube.com/playlist?list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m
