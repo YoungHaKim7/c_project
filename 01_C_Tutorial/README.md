@@ -10,17 +10,26 @@ https://llvm.org/
 
 https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
 
+  - C Tutorial 2
+
+    - https://www.tutorialspoint.com/cprogramming/
+
+  - C Tutorial 3 | C Programming for Beginners | Full Course
+
+    - https://youtu.be/ssJY5MDLjlo
+
+<hr>
+
+# C Tutorial (e-Book)
+
+
 # C Languages Tutorial
 
 https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#c
 
-# C Tutorial 2
-
-https://www.tutorialspoint.com/cprogramming/
-
-# C 3
-
 ["Let us C - Yashavant Kanetkar (PDF) (🗃️ latest 14th edition)](https://ia903402.us.archive.org/1/items/let-us-c/LET%20US%20C.pdf)
+
+<hr>
 
 # C language Syntax Summary(MS)
 
