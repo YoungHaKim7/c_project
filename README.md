@@ -7,6 +7,10 @@ set shiftwidth=2
 
 <hr>
 
+# VS Code에서 C++ 프로젝트 디버그
+
+https://youtu.be/G9gnSGKYIg4?si=xxmdCBQSWqa0dtSs
+
 # 고생하면서 배우는 C언어 (일본어)苦しんで覚えるＣ言語
 
 https://9cguide.appspot.com/index.html
