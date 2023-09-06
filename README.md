@@ -7,6 +7,10 @@ set shiftwidth=2
 
 <hr>
 
+# 자습서: VS Code를 사용하여 Mac에서 C 프로그램 디버깅
+
+https://youtu.be/wKjFVyDbSpA?si=iDI2RC3mMhSeCXSe
+
 # VS Code에서 C++ 프로젝트 디버그
 
 https://youtu.be/G9gnSGKYIg4?si=xxmdCBQSWqa0dtSs
