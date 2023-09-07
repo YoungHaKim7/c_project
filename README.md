@@ -11,6 +11,9 @@ set shiftwidth=2
 
 https://youtu.be/wKjFVyDbSpA?si=iDI2RC3mMhSeCXSe
 
+- 나도 맥북으로 C언어 개발한다 (feat. VScode)(한국분 자료)
+  - https://youtu.be/BzBaqSHisAs?si=IAFC7pwfUinKcdQM
+
 # VS Code에서 C++ 프로젝트 디버그
 
 https://youtu.be/G9gnSGKYIg4?si=xxmdCBQSWqa0dtSs
