@@ -62,3 +62,8 @@ https://yhong.tistory.com/37
     </tr>
 </table>
 
+# C bitwise operators 🔣(설명 코드랑 같이 해줘서 최고)
+https://youtu.be/BGeOwlIGRGI?si=B6dz6TQirbqXBfqm
+
+- Bitwise Operators in C (Part 1)
+  - https://youtu.be/jlQmeyce65Q?si=6WSyKfXL2NdnfyOA
