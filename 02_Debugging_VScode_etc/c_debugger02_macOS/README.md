@@ -22,6 +22,11 @@ Loop iteration number 8
 Loop iteration number 9
 Done!
 ```
+
+# 연산자 종류
+
+https://yhong.tistory.com/37
+
 # vebugger screencast
 
 https://vimeo.com/95775461
