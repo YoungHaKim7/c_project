@@ -7,6 +7,13 @@ set shiftwidth=2
 
 <hr>
 
+# 유료$paid독하게 되새기는 C 프로그래밍  
+
+https://inf.run/W34T
+
+https://www.inflearn.com/course/%EB%8F%85%ED%95%98%EA%B2%8C-%EB%90%98%EC%83%88%EA%B8%B0%EB%8A%94-c%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/
+
+
 # 자습서: VS Code를 사용하여 Mac에서 C 프로그램 디버깅
 
 https://youtu.be/wKjFVyDbSpA?si=iDI2RC3mMhSeCXSe
