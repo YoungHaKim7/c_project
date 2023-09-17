@@ -36,6 +36,9 @@ rm -rf main main.dSYM
 - Preprocessor 전처리기  
   - https://clang.llvm.org/doxygen/index.html
 
+- float 와 double의 차이점 
+  - https://codingdog.tistory.com/entry/c%EC%96%B8%EC%96%B4-double%ED%98%95-vs-float%ED%98%95-%EC%96%B4%EB%96%A4-%EC%B0%A8%EC%9D%B4%EA%B0%80-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94
+
 - string literal (c lang)
   - https://en.cppreference.com/w/c/language/string_literal
 
