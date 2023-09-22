@@ -173,7 +173,8 @@ $ ./main "ready" "set" "go" | xxd -g 1
 # Java vs C Data Represintation(Sizse of objects(in bytes))
 
 
-- 출처
+- 출처 Memory & Data, Video 3: Memory addresses
+  - https://youtu.be/lzMCuw_5dfM?si=O8haQn_zNYIBMb2r
 
 <table border="1">
     <tr>
@@ -192,22 +193,64 @@ $ ./main "ready" "set" "go" | xxd -g 1
         <td>1</td>
     </tr>
     <tr align="center">
+        <td>byte</td>
+        <td>char</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr align="center">
+        <td>char</td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>2</td>
+        <td>2</td>
+    </tr>
+    <tr align="center">
+        <td>short</td>
+        <td>short int</td>
+        <td>2</td>
+        <td>2</td>
+    </tr>
+    <tr align="center">
+        <td>int</td>
+        <td>int</td>
+        <td>4</td>
+        <td>4</td>
+    </tr>
+    <tr align="center">
+        <td>float</td>
+        <td>float</td>
+        <td>4</td>
+        <td>4</td>
     </tr>
     <tr align="center">
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>long int</td>
+        <td>4</td>
+        <td>8</td>
     </tr>
-    <tr align="center">
+    <tr align="center"> <td></td>
+        <td>double</td>
+        <td>double</td>
+        <td>8</td>
+        <td>8</td>
+    </tr>
+    <tr align="center"> <td></td>
+        <td>long</td>
+        <td>long long</td>
+        <td>8</td>
+        <td>8</td>
+    </tr>
+    <tr align="center"> <td></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>long double</td>
+        <td>8</td>
+        <td>16</td>
+    </tr>
+    <tr align="center"> <td></td>
+        <td>(reference)</td>
+        <td>pointer *</td>
+        <td>4</td>
+        <td>8</td>
     </tr>
 </table>
 
