@@ -1,3 +1,9 @@
+# ```--fsanitize=address``` 사용법
+
+```
+g++ -fsanitize=address -g3 -std=c++11 vector_ex01.cpp -o vector_ex01
+```
+
 
 <hr>
 
