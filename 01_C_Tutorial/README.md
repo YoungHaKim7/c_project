@@ -1,3 +1,12 @@
+# C에서 String개념 잡기
+
+https://www.geeksforgeeks.org/strings-in-c/
+
+Memory Layout code https://gist.github.com/edrdo/1254ab52de72688cdfce5d72066f3a7e
+
+<br>
+
+
 # The LLVM Compiler Infrastructure 
 
 https://llvm.org/
