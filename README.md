@@ -7,6 +7,8 @@ set shiftwidth=2
 
 <hr>
 
+
+
 # 유료$paid독하게 되새기는 C 프로그래밍  
 
 https://inf.run/W34T
@@ -167,6 +169,52 @@ $ ./main "ready" "set" "go" | xxd -g 1
 [Basic Structure of C Program in Hindi](https://www.youtube.com/watch?v=5SIBB589fAg&t=424s)
 
 <br>
+
+# Java vs C Data Represintation(Sizse of objects(in bytes))
+
+
+- 출처
+
+<table border="1">
+    <tr>
+    <td colspan="4" align="center">Sizes of objects(in bytes)</td>
+    </tr>
+    <tr align="center">
+        <td>Java<br>data type</td>
+        <td>C<br>data type</td>
+        <td>Typical<br>32-bit</td>
+        <td>x86-64</td>
+    </tr>
+    <tr align="center">
+        <td>boolean</td>
+        <td>bool</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<hr>
+
 
 # 자료 구조
 
