@@ -228,25 +228,25 @@ $ ./main "ready" "set" "go" | xxd -g 1
         <td>4</td>
         <td>8</td>
     </tr>
-    <tr align="center"> <td></td>
+    <tr align="center">
         <td>double</td>
         <td>double</td>
         <td>8</td>
         <td>8</td>
     </tr>
-    <tr align="center"> <td></td>
+    <tr align="center">
         <td>long</td>
         <td>long long</td>
         <td>8</td>
         <td>8</td>
     </tr>
-    <tr align="center"> <td></td>
+    <tr align="center">
         <td></td>
         <td>long double</td>
         <td>8</td>
         <td>16</td>
     </tr>
-    <tr align="center"> <td></td>
+    <tr align="center">
         <td>(reference)</td>
         <td>pointer *</td>
         <td>4</td>
