@@ -5,6 +5,9 @@
     - Memory & Data, Video 3: Memory address - Luis Ceze
       - https://economiceco.tistory.com/12219
 
+- What's the relation between hexdump and asm?
+  - https://stackoverflow.com/questions/35942805/whats-the-relation-between-hexdump-and-asm
+
 # objdump 3039 찾기 
 
 ```
