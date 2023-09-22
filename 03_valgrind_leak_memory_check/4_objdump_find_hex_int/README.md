@@ -8,6 +8,19 @@
 - What's the relation between hexdump and asm?
   - https://stackoverflow.com/questions/35942805/whats-the-relation-between-hexdump-and-asm
 
+# Byte Ordering Example
+
+- 6분 25초 확인 
+  - https://youtu.be/lzMCuw_5dfM?si=pfrww3gRL1XJ_ZqM
+
+- Big endian(PowerPC, Sun, Internet)
+  - Big end first: most-significant byte has lowest address
+  - int = 12345;   // 0x3039
+
+- Little endian(x86)
+  - Little end first: elast-significant byte has lowest address
+  - int = 12345;   // 0x3039   표시가 39 30  꺼꾸로 찍힌다.
+
 # objdump 3039 찾기 
 
 ```
