@@ -1,5 +1,11 @@
 # ```--fsanitize=address``` 사용법
 
+- C언어
+```
+clang -g -fsanitize=address test01.c
+```
+
+- C++
 ```
 g++ -fsanitize=address -g3 -std=c++11 vector_ex01.cpp -o vector_ex01
 ```
