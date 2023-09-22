@@ -5,6 +5,10 @@ https://learn.microsoft.com/en-us/cpp/sanitizers/asan?view=msvc-170
 
 https://github.com/google/sanitizers/wiki/AddressSanitizerInitializationOrderFiasco
 
+- 세부적으로 더 빡쎈 옵션 gcc
+
+https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html
+
 # ```--fsanitize=address``` 사용법
 
 - C언어
