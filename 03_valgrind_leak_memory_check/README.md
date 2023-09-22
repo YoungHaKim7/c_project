@@ -1,3 +1,12 @@
+
+<hr>
+
+# Memory & Data, Video 3: Memory address - Luis Ceze
+
+https://economiceco.tistory.com/12219
+
+<hr>
+
 # C Dynamic Memory Debugging with Valgrind
 
 https://youtu.be/bb1bTJtgXrI
