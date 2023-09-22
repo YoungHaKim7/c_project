@@ -21,7 +21,7 @@
   - Little end first: elast-significant byte has lowest address
   - int = 12345;   // 0x3039   표시가 39 30  꺼꾸로 찍힌다.
 
-# objdump 3039 찾기 
+# objdump 3039 찾기 (인텔 Intel CPU test , Little endian방식)
 
 ```
 $ objdump -d main                                                                                                              ─╯
