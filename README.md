@@ -7,7 +7,11 @@ set shiftwidth=2
 
 <hr>
 
+# C코드를 ll로 변환 후 Assembly ❤️바꾸는 방법(LLVM&Assembly코드는 M1pro arm64기계 기준임macOS)otool활용
 
+https://economiceco.tistory.com/14882
+
+<hr>
 
 # 유료$paid독하게 되새기는 C 프로그래밍  
 
