@@ -33,6 +33,10 @@ https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
 
     - https://youtu.be/ssJY5MDLjlo
 
+# [나우캠퍼스]c-game_programming
+
+https://youtube.com/playlist?list=PLEk6DN9YLL6eKcB-m_KlsIcd5i3Ci-CHk&si=7RYOaSVTpw2ZLzQo
+
 <hr>
 
 # C Tutorial (e-Book)
