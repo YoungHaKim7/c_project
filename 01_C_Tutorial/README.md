@@ -37,10 +37,6 @@ https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
 
 https://youtube.com/playlist?list=PLEk6DN9YLL6eKcB-m_KlsIcd5i3Ci-CHk&si=7RYOaSVTpw2ZLzQo
 
-# [나우캠퍼스]java
-
-https://youtube.com/playlist?list=PLEk6DN9YLL6c_Dy-3yJhIKFP0AktqZVeE&si=LKZwqtWBhup8gY1k
-
 <hr>
 
 # C Tutorial (e-Book)
