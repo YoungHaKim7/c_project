@@ -37,6 +37,9 @@ https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
 
 https://youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif&si=ol75xhiOWd3ttQCj
 
+- Find the Minimum Number in an Array | C Programming Example
+  - https://youtube.com/playlist?list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&si=cYporQe4JnWjh5zv
+
 # [나우캠퍼스]c-game_programming
 
 https://youtube.com/playlist?list=PLEk6DN9YLL6eKcB-m_KlsIcd5i3Ci-CHk&si=7RYOaSVTpw2ZLzQo
