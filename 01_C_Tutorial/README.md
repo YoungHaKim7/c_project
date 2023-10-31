@@ -33,6 +33,10 @@ https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
 
     - https://youtu.be/ssJY5MDLjlo
 
+# C Programming Tutorials | Portfolio Courses
+
+https://youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif&si=ol75xhiOWd3ttQCj
+
 # [나우캠퍼스]c-game_programming
 
 https://youtube.com/playlist?list=PLEk6DN9YLL6eKcB-m_KlsIcd5i3Ci-CHk&si=7RYOaSVTpw2ZLzQo
