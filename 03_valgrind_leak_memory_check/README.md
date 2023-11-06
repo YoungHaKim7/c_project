@@ -15,6 +15,7 @@ https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html
 ```
 clang -g -fsanitize=address test01.c
 ```
+https://www.osc.edu/resources/getting_started/howto/howto_use_address_sanitizer
 
 - C++
 ```
