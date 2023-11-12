@@ -7,12 +7,10 @@ dir/otherdir/.DS_Store
 
 target/
 .vscode/
-a.out.dSYM/
-
 # Prerequisites
 *.d
 
-# Object files
+echo # Object files
 *.o
 *.ko
 *.obj
@@ -61,3 +59,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+

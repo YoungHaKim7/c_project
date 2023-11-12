@@ -173,7 +173,7 @@ echo ".vscode/" >> .gitignore &&
 echo "# Prerequisites" >> .gitignore &&
 echo "*.d\xa" >> .gitignore &&
 
-echo "echo "# Object files" >> .gitignore &&
+echo "echo # Object files" >> .gitignore &&
 echo "*.o" >> .gitignore &&
 echo "*.ko" >> .gitignore &&
 echo "*.obj" >> .gitignore &&
@@ -238,3 +238,8 @@ echo "dkms.conf\xa" >> .gitignore
 
 ```
 
+# Result
+
+```
+
+```
