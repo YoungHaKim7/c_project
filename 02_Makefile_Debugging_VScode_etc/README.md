@@ -1,6 +1,7 @@
 # Contents Link
 
 - <a href="https://github.com/YoungHaKim7/cpp_training2024/tree/main/03_Makefile_Debugging_cpp#cpp-gitignore-">echo로 .gitignore 넣기 이동</a>
+- <a href="https://github.com/YoungHaKim7/cpp_training2024/tree/main/03_Makefile_Debugging_cpp#cpp-gitignore-">Makefile 넣기 이동</a>
 
 
 # VS Code에서 C++ 프로젝트 디버그
