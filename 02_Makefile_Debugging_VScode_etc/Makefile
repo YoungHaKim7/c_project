@@ -125,7 +125,7 @@ vscode:
 		echo "		{" >> .vscode/tasks.json
 		echo "			\"type\": \"cppbuild\"," >> .vscode/tasks.json
 		echo "			\"label\": \"C/C++: clang build active file\"," >> .vscode/tasks.json
-		echo "			\"command\": \"/home/gy/Utilities/llvm16_0_4/bin/g++\"," >> .vscode/tasks.json
+		echo "			\"command\": \"/home/gy/Utilities/llvm16_0_4/bin/clang\"," >> .vscode/tasks.json
 		echo "			\"args\": [" >> .vscode/tasks.json
 		echo "				\"-c\"," >> .vscode/tasks.json
 		echo "				\"-fcolor-diagnostics\"," >> .vscode/tasks.json
