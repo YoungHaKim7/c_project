@@ -133,7 +133,7 @@ echo "\x09\x09echo \x22\x09\\\"tasks\\\": [\x22 >> .vscode/tasks.json" >> Makefi
 echo "\x09\x09echo \x22\x09\x09{\x22 >> .vscode/tasks.json" >> Makefile &&
 echo "\x09\x09echo \x22\x09\x09\x09\\\"type\\\": \\\"cppbuild\\\",\x22 >> .vscode/tasks.json" >> Makefile &&
 echo "\x09\x09echo \x22\x09\x09\x09\\\"label\\\": \\\"C/C++: clang build active file\\\",\x22 >> .vscode/tasks.json" >> Makefile &&
-echo "\x09\x09echo \x22\x09\x09\x09\\\"command\\\": \\\"/home/gy/Utilities/llvm16_0_4/bin/g++\\\",\x22 >> .vscode/tasks.json" >> Makefile &&
+echo "\x09\x09echo \x22\x09\x09\x09\\\"command\\\": \\\"/home/gy/Utilities/llvm16_0_4/bin/clang\\\",\x22 >> .vscode/tasks.json" >> Makefile &&
 echo "\x09\x09echo \x22\x09\x09\x09\\\"args\\\": [\x22 >> .vscode/tasks.json" >> Makefile &&
 echo "\x09\x09echo \x22\x09\x09\x09\x09\\\"-c\\\",\x22 >> .vscode/tasks.json" >> Makefile &&
 echo "\x09\x09echo \x22\x09\x09\x09\x09\\\"-fcolor-diagnostics\\\",\x22 >> .vscode/tasks.json" >> Makefile &&
@@ -357,7 +357,7 @@ vscode:
 		echo "		{" >> .vscode/tasks.json
 		echo "			\"type\": \"cppbuild\"," >> .vscode/tasks.json
 		echo "			\"label\": \"C/C++: clang build active file\"," >> .vscode/tasks.json
-		echo "			\"command\": \"/home/gy/Utilities/llvm16_0_4/bin/g++\"," >> .vscode/tasks.json
+		echo "			\"command\": \"/home/gy/Utilities/llvm16_0_4/bin/clang\"," >> .vscode/tasks.json
 		echo "			\"args\": [" >> .vscode/tasks.json
 		echo "				\"-c\"," >> .vscode/tasks.json
 		echo "				\"-fcolor-diagnostics\"," >> .vscode/tasks.json
