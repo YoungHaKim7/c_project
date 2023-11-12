@@ -8,7 +8,7 @@
 
 https://youtu.be/G9gnSGKYIg4?si=xxmdCBQSWqa0dtSs
 
-# echo로 Makefile 넣기 <a href="https://github.com/YoungHaKim7/cpp_training2024/tree/main/03_Makefile_Debugging_cpp#link">[🔝]</a>
+# echo로 Makefile 넣기 <a href="https://github.com/YoungHaKim7/c_project/tree/main/02_Makefile_Debugging_VScode_etc#contents-link">[🔝]</a>
 
 ```Makefile
 echo "C = gcc " >> Makefile &&
