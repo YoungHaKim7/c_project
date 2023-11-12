@@ -73,6 +73,77 @@ https://youtube.com/playlist?list=PLf2x9zGTmznByH3T_cakNCU1w73Lv9t4v
 
 https://codeahoy.com/learn/cprogramming/ch4/
 
+<hr>
+
+
+# 연산자 종류
+
+https://yhong.tistory.com/37
+
+- 비트 논리 연산자 (bitwise operator)
+
+```
+&  and
+|  or 
+^ xor
+~ not
+```
+
+<table border="1">
+    <tr>
+    <td colspan="6" align="center">비트 연산자(bitwise operator)</td>
+    </tr>
+    <tr align="center">
+        <td>a(비트 값)</td>
+        <td>b(비트 값)</td>
+        <td>a & b</td>
+        <td>a | b</td>
+        <td>a ^ b</td>
+        <td>~a</td>
+    </tr>
+    <tr align="center">
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+    </tr>
+    <tr align="center">
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr align="center">
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+    </tr>
+    <tr align="center">
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
+
+# C bitwise operators 🔣(설명 코드랑 같이 해줘서 최고)
+https://youtu.be/BGeOwlIGRGI?si=B6dz6TQirbqXBfqm
+
+- Bitwise Operators in C (Part 1)
+  - https://youtu.be/jlQmeyce65Q?si=6WSyKfXL2NdnfyOA
+
+
+<hr>
+
 # Compilers
 
 Use every available and reasonable set of warning options. Some warning options only work with optimizations enabled, or work better the higher the chosen level of optimization is, for example 
