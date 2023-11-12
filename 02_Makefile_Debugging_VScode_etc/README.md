@@ -388,6 +388,69 @@ vscode:
 
 ```bash
 
+
+echo "# Result\xa\xa\x60\x60\x60\xa\xa\x60\x60\x60" >> README.md &&
+
+echo "# A collection of useful .gitignore templates " >> .gitignore &&
+echo "# https://github.com/github/gitignore\xa" >> .gitignore &&
+echo "# General" >> .gitignore &&
+echo ".DS_Store" >> .gitignore &&
+echo "dir/otherdir/.DS_Store\xa" >> .gitignore &&
+echo "target/" >> .gitignore &&
+echo ".vscode/" >> .gitignore &&
+
+echo "# Prerequisites" >> .gitignore &&
+echo "*.d\xa" >> .gitignore &&
+
+echo "echo # Object files" >> .gitignore &&
+echo "*.o" >> .gitignore &&
+echo "*.ko" >> .gitignore &&
+echo "*.obj" >> .gitignore &&
+echo "*.elf\xa" >> .gitignore &&
+
+echo "# Linker output" >> .gitignore &&
+echo "*.ilk" >> .gitignore &&
+echo "*.map" >> .gitignore &&
+echo "*.exp\xa" >> .gitignore &&
+
+echo "# Precompiled Headers" >> .gitignore &&
+echo "*.gch" >> .gitignore &&
+echo "*.pch\xa" >> .gitignore &&
+
+echo "# Libraries" >> .gitignore &&
+echo "*.lib" >> .gitignore &&
+echo "*.a" >> .gitignore &&
+echo "*.la" >> .gitignore &&
+echo "*.lo\xa" >> .gitignore &&
+
+echo "# Shared objects (inc. Windows DLLs)" >> .gitignore &&
+echo "*.dll" >> .gitignore &&
+echo "*.so" >> .gitignore &&
+echo "*.so.*" >> .gitignore &&
+echo "*.dylib\xa" >> .gitignore &&
+
+echo "# Executables" >> .gitignore &&
+echo "*.exe" >> .gitignore &&
+echo "*.out" >> .gitignore &&
+echo "*.app" >> .gitignore &&
+echo "*.i*86" >> .gitignore &&
+echo "*.x86_64" >> .gitignore &&
+echo "*.hex\xa" >> .gitignore &&
+
+echo "# Debug files" >> .gitignore &&
+echo "*.dSYM/" >> .gitignore &&
+echo "*.su" >> .gitignore &&
+echo "*.idb" >> .gitignore &&
+echo "*.pdb\xa" >> .gitignore &&
+
+echo "# Kernel Module Compile Results" >> .gitignore &&
+echo "*.mod*" >> .gitignore &&
+echo "*.cmd" >> .gitignore &&
+echo ".tmp_versions/" >> .gitignore &&
+echo "modules.order" >> .gitignore &&
+echo "Module.symvers" >> .gitignore &&
+echo "Mkfile.old" >> .gitignore &&
+echo "dkms.conf\xa" >> .gitignore
 ```
 
 
