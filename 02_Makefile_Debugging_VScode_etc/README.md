@@ -10,6 +10,8 @@ https://youtu.be/G9gnSGKYIg4?si=xxmdCBQSWqa0dtSs
 
 # echo로 Makefile 넣기 <a href="https://github.com/YoungHaKim7/c_project/tree/main/02_Makefile_Debugging_VScode_etc#contents-link">[🔝]</a>
 
+- <a href="https://github.com/YoungHaKim7/c_project/tree/main/02_Makefile_Debugging_VScode_etc#makefile%EC%A7%81%EC%A0%91-%EB%84%A3%EA%B8%B0-">Makefile 넣기 이동</a>
+
 ```Makefile
 echo "C = gcc " >> Makefile &&
 echo "CLANG = clang" >> Makefile &&
