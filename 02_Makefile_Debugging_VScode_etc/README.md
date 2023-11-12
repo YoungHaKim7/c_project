@@ -1,6 +1,6 @@
 # Contents Link
 
-- <a href="https://github.com/YoungHaKim7/c_project/tree/main/02_Makefile_Debugging_VScode_etc#echo-gitignore-file-">echo로 .gitignore 넣기 이동</a>
+- <a href="https://github.com/YoungHaKim7/c_project/tree/main/02_Makefile_Debugging_VScode_etc#echo-gitignore-file">echo로 .gitignore 넣기 이동</a>
 - <a href="https://github.com/YoungHaKim7/c_project/tree/main/02_Makefile_Debugging_VScode_etc#makefile%EC%A7%81%EC%A0%91-%EB%84%A3%EA%B8%B0-">Makefile 넣기 이동</a>
 
 
