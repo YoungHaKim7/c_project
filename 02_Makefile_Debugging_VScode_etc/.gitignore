@@ -6,7 +6,6 @@
 dir/otherdir/.DS_Store
 
 target/
-.vscode/
 # Prerequisites
 *.d
 
