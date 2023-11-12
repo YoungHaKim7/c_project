@@ -180,7 +180,7 @@ $ ./main "ready" "set" "go" | xxd -g 1
 
 <br>
 
-# Java vs C Data Represintation(Sizse of objects(in bytes))<a href="https://github.com/YoungHaKim7/cpp_training2024/tree/main/03_Makefile_Debugging_cpp#link">[🔝]</a>
+# Java vs C Data Represintation(Sizse of objects(in bytes))<a href="https://github.com/YoungHaKim7/c_project#contents-link">[🔝]</a>
 
 
 - 출처 Memory & Data, Video 3: Memory addresses
