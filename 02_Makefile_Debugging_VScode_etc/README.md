@@ -159,7 +159,7 @@ echo "\x09\x09echo \x22\x09\x09}\x22 >> .vscode/tasks.json" >> Makefile &&
 echo "\x09\x09echo \x22\x09],\x22 >> .vscode/tasks.json" >> Makefile &&
 echo "\x09\x09echo \x22\x09\\\"version\\\": \\\"2.0.0\\\"\x22 >> .vscode/tasks.json" >>  Makefile &&
 echo "\x09\x09echo \x22}\x22 >> .vscode/tasks.json" >> Makefile &&
-echo "\x09\x09which clang>> Makefile &&
+echo "\x09\x09which clang" >> Makefile &&
 
 
 echo "# Result\xa\xa\x60\x60\x60\xa\xa\x60\x60\x60" >> README.md &&
