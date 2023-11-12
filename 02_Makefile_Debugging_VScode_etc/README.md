@@ -227,6 +227,8 @@ echo "dkms.conf\xa" >> .gitignore
 
 # Makefile직접 넣기 <a href="https://github.com/YoungHaKim7/c_project/tree/main/02_Makefile_Debugging_VScode_etc#contents-link">[🔝]</a>
 
+- <a href="https://github.com/YoungHaKim7/c_project/tree/main/02_Makefile_Debugging_VScode_etc#echo-gitignore-file">echo로 .gitignore 넣기 이동</a>
+
 ```Makefile
 C = gcc 
 CLANG = clang
