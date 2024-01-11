@@ -1,3 +1,6 @@
+# C언어 기본서 오픈 집필 
+- https://github.com/pr0gr4m/Hello-C-World
+
 # C에서 String개념 잡기
 
 https://www.geeksforgeeks.org/strings-in-c/
