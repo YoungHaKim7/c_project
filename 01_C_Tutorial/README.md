@@ -1,3 +1,8 @@
+# C without libraries? - Welcome to nolibC | mqxf
+- https://www.youtube.com/live/-UK_fX7lz5o?si=CtgEEFcWeEW-pQm9
+
+<hr>
+
 # C언어 기본서 오픈 집필 
 - https://github.com/pr0gr4m/Hello-C-World
 
