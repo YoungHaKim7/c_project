@@ -1,6 +1,5 @@
 # Link
-- <a href="https://github.com/YoungHaKim7/c_project#java-vs-c-data-represintationsizse-of-objectsin-bytes">Java vs C 용량 비교 변수 범위</a>
-
+- [Java vs C 용량 비교 변수 범위](#java-vs-c-data-represintationsizse-of-objectsin-bytes)
 
 <hr>
 
@@ -549,7 +548,7 @@ $ ./main "ready" "set" "go" | xxd -g 1
 
 <br>
 
-# Java vs C Data Represintation(Sizse of objects(in bytes))<a href="https://github.com/YoungHaKim7/c_project#contents-link">[🔝]</a>
+# Java vs C Data Represintation(Sizse of objects(in bytes))[[🔝]](#link)
 
 
 - 출처 Memory & Data, Video 3: Memory addresses
