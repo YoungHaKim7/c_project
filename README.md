@@ -4,7 +4,7 @@
 
 <hr>
 
-# vim tab setting
+# vim tab setting[[🔝]](#link)
 
 ```
 set tabstop=2
@@ -13,7 +13,7 @@ set shiftwidth=2
 
 <hr>
 
-# C Operator Precedence
+# C Operator Precedence[[🔝]](#link)
 - The following table lists the precedence and associativity of C operators. Operators are listed top to bottom, in descending precedence.
   - https://en.cppreference.com/w/c/language/operator_precedence
 
@@ -382,69 +382,69 @@ a <span class="sy4">?</span> b <span class="sy4">:</span> c<br />
 <hr>
 
 
-# C코드를 ll로 변환 후 Assembly ❤️바꾸는 방법(LLVM&Assembly코드는 M1pro arm64기계 기준임macOS)otool활용
+# C코드를 ll로 변환 후 Assembly ❤️바꾸는 방법(LLVM&Assembly코드는 M1pro arm64기계 기준임macOS)otool활용[[🔝]](#link)
 
 https://economiceco.tistory.com/14882
 
 <hr>
 
-# 유료$paid독하게 되새기는 C 프로그래밍  
+# 유료$paid독하게 되새기는 C 프로그래밍[[🔝]](#link)
 
 https://inf.run/W34T
 
 https://www.inflearn.com/course/%EB%8F%85%ED%95%98%EA%B2%8C-%EB%90%98%EC%83%88%EA%B8%B0%EB%8A%94-c%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/
 
 
-# 자습서: VS Code를 사용하여 Mac에서 C 프로그램 디버깅
+# 자습서: VS Code를 사용하여 Mac에서 C 프로그램 디버깅[[🔝]](#link)
 
 https://youtu.be/wKjFVyDbSpA?si=iDI2RC3mMhSeCXSe
 
 - 나도 맥북으로 C언어 개발한다 (feat. VScode)(한국분 자료)
   - https://youtu.be/BzBaqSHisAs?si=IAFC7pwfUinKcdQM
 
-# VS Code에서 C++ 프로젝트 디버그
+# VS Code에서 C++ 프로젝트 디버그[[🔝]](#link)
 
 https://youtu.be/G9gnSGKYIg4?si=xxmdCBQSWqa0dtSs
 
-# 고생하면서 배우는 C언어 (일본어)苦しんで覚えるＣ言語
+# 고생하면서 배우는 C언어 (일본어)苦しんで覚えるＣ言語[[🔝]](#link)
 
 https://9cguide.appspot.com/index.html
 
-# C Programming Full Course for free 🕹️ (4hr)
+# C Programming Full Course for free 🕹️ (4hr)[[🔝]](#link)
 https://youtu.be/87SH2Cn0s9A
 
-# C / C++ | freeCodeCamp.org
+# C / C++ | freeCodeCamp.org[[🔝]](#link)
 
 https://youtube.com/playlist?list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m
 
-# Microsoft C++, C, and Assembler documentation(C MSDN)
+# Microsoft C++, C, and Assembler documentation(C MSDN)[[🔝]](#link)
 
 - Learn how to use C++, C, and assembly language to develop applications, services, and tools for your platforms and devices.
 
 https://learn.microsoft.com/en-us/cpp/?view=msvc-170
 
-# c-language(MS)
+# c-language(MS)[[🔝]](#link)
 
 https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170
 
-# MicroSoft Learn (Samples C)
+# MicroSoft Learn (Samples C)[[🔝]](#link)
 
 https://learn.microsoft.com/en-us/samples/browse/?languages=c
 
 
-# Smile Han의 C 언어 프로그래밍
+# Smile Han의 C 언어 프로그래밍[[🔝]](#link)
 
 https://youtube.com/playlist?list=PLJqaIeuL7nuFgbxCyhtZ7xBUNhdV9Qy5R
 
 <hr>
 
-# The LLVM Compiler Infrastructure 
+# The LLVM Compiler Infrastructure[[🔝]](#link)
 
 https://llvm.org/
 
 <br>
 
-# Creating the Node of a Single Linked List
+# Creating the Node of a Single Linked List[[🔝]](#link)
 
 https://youtu.be/DneLxrPmmsw
 
@@ -461,32 +461,32 @@ https://youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM
 
 <br>
 
-# C Language Tutorials In Hindi __ 1
+# C Language Tutorials In Hindi __ 1[[🔝]](#link)
 
 https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR
 
 <br>
 
-# How I program C | Eskil Steenberg ___ 2
+# How I program C | Eskil Steenberg ___ 2[[🔝]](#link)
 
 https://youtu.be/443UNeGrFoM
 
 <br>
 
-# Advanced C: The UB and optimizations that trick good programmers. | Eskil Steenberg
+# Advanced C: The UB and optimizations that trick good programmers. | Eskil Steenberg[[🔝]](#link)
 
 https://youtu.be/w3_e9vZj7D8
 
 
 <br>
 
-# Modern C and What We Can Learn From It - Luca Sas [ ACCU 2021 ]
+# Modern C and What We Can Learn From It - Luca Sas [ ACCU 2021 ][[🔝]](#link)
 
 https://youtu.be/QpAhX-gsHMs
 
 <br>
 
-# C Language Tutorial Videos 
+# C Language Tutorial Videos[[🔝]](#link)
 
 https://youtube.com/playlist?list=PLVlQHNRLflP8IGz6OXwlV_lgHgc72aXlh
 
@@ -494,7 +494,7 @@ https://youtube.com/playlist?list=PLVlQHNRLflP8IGz6OXwlV_lgHgc72aXlh
 
 <hr>
 
-# build.sh
+# build.sh[[🔝]](#link)
 
 ```
 #!/bin/bash
@@ -509,7 +509,7 @@ gcc -pthread -lm -Wall -Wextra -ggdb -o main main.c
 
 <br>
 
-# delete.sh
+# delete.sh[[🔝]](#link)
 
 ```
 #!/bin/bash
@@ -520,7 +520,7 @@ rm -rf main main.dSYM
 
 <br>
 
-# xxd 명령어 이해하기
+# xxd 명령어 이해하기[[🔝]](#link)
 
 https://www.tutorialspoint.com/unix_commands/xxd.htm
 
@@ -543,7 +543,7 @@ $ ./main "ready" "set" "go" | xxd -g 1
 
 <hr>
 
-## C Program in Hindi: C Tutorial In Hindi
+# C Program in Hindi: C Tutorial In Hindi[[🔝]](#link)
 
 [Basic Structure of C Program in Hindi](https://www.youtube.com/watch?v=5SIBB589fAg&t=424s)
 
@@ -638,7 +638,7 @@ $ ./main "ready" "set" "go" | xxd -g 1
 <hr>
 
 
-# 자료 구조
+# 자료 구조[[🔝]](#link)
 
 https://github.com/YoungHaKim7/c_project/tree/main/exercise/002stack
 
@@ -686,7 +686,7 @@ Associative array(Multimap, Retrieval Data Structure), List, StackQueue(Double-e
 
 <hr>
 
-# Big-O Cheat Sheet(그림으로 이쁘게)
+# Big-O Cheat Sheet(그림으로 이쁘게)[[🔝]](#link)
 
 https://dev.to/deciduously/big-o-cheat-sheet-3i7d
 
@@ -700,19 +700,19 @@ https://dev.to/deciduously/big-o-cheat-sheet-3i7d
 
 <hr>
 
-# C Languages Tutorial
+# C Languages Tutorial[[🔝]](#link)
 
 https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#c
 
-# C Tutorial 2
+# C Tutorial 2[[🔝]](#link)
 
 https://www.tutorialspoint.com/cprogramming/
 
-# C 3
+# C 3[[🔝]](#link)
 
 ["Let us C - Yashavant Kanetkar (PDF) (🗃️ latest 14th edition)](https://ia903402.us.archive.org/1/items/let-us-c/LET%20US%20C.pdf)
 
-# Compilers
+# Compilers[[🔝]](#link)
 
 Use every available and reasonable set of warning options. Some warning options only work with optimizations enabled, or work better the higher the chosen level of optimization is, for example 
 ```-Wnull-dereference```
@@ -720,7 +720,7 @@ Use every available and reasonable set of warning options. Some warning options 
 
 You should use as many compilers as you can for your platform(s). Each compiler implements the standard slightly differently and supporting multiple will help ensure the most portable, most reliable code.
 
-# GCC / Clang
+# GCC / Clang[[🔝]](#link)
 ```-Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic``` 
 - use these and consider the following (see descriptions below)
 
