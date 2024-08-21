@@ -1,3 +1,16 @@
+# C만든 개발자가 쓴 책 Dr. Chuck reads C Programming (the classic book by Kernigan and Ritchie)
+
+- https://youtu.be/j-_s8f5K30I?si=7GusIq2PSS3y9UnA
+
+# (화질 좋다)Pointers in C for Absolute Beginners – Full Course| freeCodeCamp.org
+- https://youtu.be/MIL2BK02X8A?si=5Ib3eYWmTEFAK-c4
+
+# Pointers in C / C++ [Full Course] | freeCodeCamp.org
+
+- https://youtu.be/zuegQmMdy8M?si=wvjcN32Ro5GxL1q6
+
+<hr>
+
 # C without libraries? - Welcome to nolibC | mqxf
 - https://www.youtube.com/live/-UK_fX7lz5o?si=CtgEEFcWeEW-pQm9
 
