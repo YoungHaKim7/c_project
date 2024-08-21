@@ -1,6 +1,8 @@
 # C만든 개발자가 쓴 책 Dr. Chuck reads C Programming (the classic book by Kernigan and Ritchie)
 
 - https://youtu.be/j-_s8f5K30I?si=7GusIq2PSS3y9UnA
+  - 18시간짜리
+    - https://youtu.be/PaPN51Mm5qQ?si=9xATMFLWIjy-Q9MQ
 
 # (화질 좋다)Pointers in C for Absolute Beginners – Full Course| freeCodeCamp.org
 - https://youtu.be/MIL2BK02X8A?si=5Ib3eYWmTEFAK-c4
