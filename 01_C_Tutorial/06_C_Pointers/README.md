@@ -9,6 +9,51 @@
 # (화질 좋다)Pointers in C for Absolute Beginners – Full Course| freeCodeCamp.org[|🔝|](#link)
 - https://youtu.be/MIL2BK02X8A?si=5Ib3eYWmTEFAK-c4
 
+- Declaration tells me "how to use"
+  - TL;DR
+	  - The notation of a variable declaration says
+		  - "what you must do to something" to "get something of the specified data"
+	- 요약
+    - 변수 선언의 표기법은 다음과 같습니다
+      - "지정된 데이터를 얻기 위해 반드시 해야 할 일"
+
+```c
+// "To get an int just use n"
+// int를 얻으려면 n을 사용하세요.
+int   n;
+
+// "To get an int just dereference n"
+//"int  그냥 디레퍼런스 n을 얻으려면"
+int  *n;
+
+
+// "To get an int just use n[i]"
+// int를 얻으려면 n[i]을 사용하세요."   index로 원하는 인덱스로 접근한다 .  알고리즘에서 랜덤 액세는 인덱쓰가 짱 읽기 전용에 쓰면 됨.
+int   n[3];
+
+
+
+// "To get an int just call foo with the related inputs"
+// "Int를 받으려면 관련 입력과 함께 푸(foo)에게 전화(call)하세요."
+// parameter 가  n, n1 이다
+int   foo(int n, float n1);
+```
+
+
+- Declarations tell us "How to use x to get y"
+
+
+```c
+
+int   n, *pn, **pn2;
+    // ^  ^     ^
+		// |  |     |
+	  // They all will yield an int type when used in this way in an expression
+		// // 이와 같은 방식으로 표현할 때 모두 int 타입을 생성합니다
+
+
+```
+
 # Linux or macOS[|🔝|](#link)
 ```justfile
 # LinuxOS
