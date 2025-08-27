@@ -92,7 +92,7 @@ int   n, *pn, **pn2;
   - You just pass an address, it can point to a gigantic structure, not a problem.
 
 - Direct access
-  - I can modify data outside the called function. This tric allows me to kinda "return multiple values"
+  - I can modify data outside the called function. This trick allows me to kinda "return multiple values"
 
 - Side effects
   - I can write impossible to read code given that pointer can change values on other locations. "With great power comes great responsibility"
@@ -104,7 +104,7 @@ int   n, *pn, **pn2;
   - 주소를 전달하기만 하면 문제가 아닌 거대한 구조물을 가리킬 수 있습니다.
 
 - 직접 액세스
-  - 호출된 함수 외부의 데이터를 수정할 수 있습니다. 이 트리를 사용하면 "여러 값을 반환"할 수 있습니다
+	- 호출된 함수 외부의 데이터를 수정할 수 있습니다. 이 트릭을 사용하면 "여러 값을 반환"할 수 있습니다
 
 - 부작용
   - 포인터가 다른 위치의 값을 변경할 수 있기 때문에 코드를 읽을 수 없습니다. "큰 힘에는 큰 책임이 따릅니다."
