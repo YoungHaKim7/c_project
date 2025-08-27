@@ -1,5 +1,6 @@
 project_name := `basename "$(pwd)"`
 
+#[cfg(target_os="macos")]
 # which clang
 clang_which := "/usr/bin/clang-20"
 gcc_which := "/opt/homebrew/opt/gcc@15/bin/gcc-15"
@@ -25,10 +26,9 @@ ldflags_fsanitize_object := "-g -fsanitize=address"
 ldflags_fsanitize_valgrind := "-fsanitize=address -g3"
 ldflags_optimize :=  "-Wall -O2 -pedantic -pthread -pedantic-errors -lm -Wextra -ggdb"
 
+#[cfg(target_os="macos")]
 # fmt
 fmt_flags := ". -iname '*.cpp' -o -iname '*.hpp' -o -iname '*.cc'  -o -iname '*.c'-o -iname '*.cxx' -o -iname '*.c' -o -iname '*.h' | "+clang_format+" -style=file -i --files=/dev/stdin"
-
-# -iname '*.h' -o -iname '*.cpp' -o -iname '*.hpp' -o -iname '*.c' | clang-format --style=file -i --files=/dev/stdin
 
 # (C)clang compile
 r:
@@ -76,7 +76,6 @@ cl:
 # .clang-format fmt
 fmt:
 	find {{fmt_flags}}
-
 
 # clang LLVM emit-file
 ll:
