@@ -6,8 +6,8 @@
 - [.clang-format](#clang-format)
 - [Tutorial 유튜브 영상Pointers in C for Absolute Beginners - Full Course | freeCodeCamp.org](#화질-좋다pointers-in-c-for-absolute-beginners--full-course-freecodecamporg)
 
-- Pass-By-Value
-- Pass-by-reference
+- [Pass-By-Value](#pass-by-value)
+- [Pass-by-reference](#pass-by-reference)
 
 
 # (화질 좋다)Pointers in C for Absolute Beginners – Full Course| freeCodeCamp.org[|🔝|](#link)
