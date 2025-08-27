@@ -3,12 +3,9 @@
 
 ```bash
 42 is in position 5
-
 ```
 
 # justfile(c23)
-
-
 
 ```justfile
 project_name := `basename "$(pwd)"`
@@ -18,8 +15,8 @@ macos_clang_which := "/usr/bin/clang-20"
 macos_gcc_which := "/opt/homebrew/opt/gcc@15/bin/gcc-15"
 
 # linuxOS
-gcc_which := "/opt/gcc-15/bin/gcc"
 clang_which := "/usr/bin/clang-20"
+gcc_which := "/opt/gcc-15/bin/gcc"
 
 # Source and target directories
 src_dir := "./src"
