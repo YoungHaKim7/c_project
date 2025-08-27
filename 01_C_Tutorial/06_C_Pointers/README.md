@@ -54,6 +54,15 @@ int   n, *pn, **pn2;
 
 ```
 
+- Pointers FAQ
+  - Advantages of passing pointers as arguments compared to passing by value
+
+- 포인터 FAQ
+  - 값으로 전달하는 것에 비해 포인터를 인수로 전달하는 것의 장점
+
+# Pass-By-Value
+- 39min 9sec
+
 # Linux or macOS[|🔝|](#link)
 ```justfile
 # LinuxOS
