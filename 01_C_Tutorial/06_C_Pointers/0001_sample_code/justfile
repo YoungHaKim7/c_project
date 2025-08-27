@@ -2,7 +2,7 @@ project_name := `basename "$(pwd)"`
 
 # which clang
 clang_which := "/usr/bin/clang-20"
-gcc_which := "/opt/gcc-15/bin/gcc"
+gcc_which := "/opt/homebrew/opt/gcc@15/bin/gcc-15"
 
 # Source and target directories
 src_dir := "./src"

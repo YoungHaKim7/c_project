@@ -1,9 +1,10 @@
 # link
 
-- [justfile(c23)]
-- [Cmake]
-- [Linux or macOS]
-- [.clang-format]
+- [justfile(c23)](#justfilec23)
+  - [LinuxOS VS macOS justfile gcc세팅](linux-or-macos)
+- [Cmake](#cmake)
+- [.clang-format](#clang-format)
+- [Tutorial 유튜브 영상Pointers in C for Absolute Beginners - Full Course | freeCodeCamp.org](#화질-좋다pointers-in-c-for-absolute-beginners--full-course-freecodecamporg)
 
 # (화질 좋다)Pointers in C for Absolute Beginners – Full Course| freeCodeCamp.org[|🔝|](#link)
 - https://youtu.be/MIL2BK02X8A?si=5Ib3eYWmTEFAK-c4
