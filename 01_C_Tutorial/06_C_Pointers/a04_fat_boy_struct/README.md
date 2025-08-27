@@ -12,6 +12,7 @@
 ```justfile
 project_name := `basename "$(pwd)"`
 
+#[cfg(target_os="macos")]
 # which clang
 clang_which := "/usr/bin/clang-20"
 gcc_which := "/opt/homebrew/opt/gcc@15/bin/gcc-15"
@@ -21,7 +22,7 @@ src_dir := "./src"
 target_dir := "./target"
 
 # clang-format 20
-clang_format := "clang-format-20"
+clang_format := "clang-format"
 
 # Files
 source := src_dir+"/main.c"
@@ -37,9 +38,9 @@ ldflags_fsanitize_object := "-g -fsanitize=address"
 ldflags_fsanitize_valgrind := "-fsanitize=address -g3"
 ldflags_optimize :=  "-Wall -O2 -pedantic -pthread -pedantic-errors -lm -Wextra -ggdb"
 
+#[cfg(target_os="macos")]
 # fmt
-fmt_flags := ". -regex '.*\\.\\(cpp\\|hpp\\|cc\\|cxx\\|c\\|h\\)' -exec "+clang_format+" -style=file -i {} \\;"
-
+fmt_flags := ". -iname '*.cpp' -o -iname '*.hpp' -o -iname '*.cc'  -o -iname '*.c'-o -iname '*.cxx' -o -iname '*.c' -o -iname '*.h' | "+clang_format+" -style=file -i --files=/dev/stdin"
 
 # (C)clang compile
 r:
@@ -229,5 +230,4 @@ vscode:
 	echo '    ],' >> .vscode/tasks.json
 	echo '    "version": "2.0.0"' >> .vscode/tasks.json
 	echo '}' >> .vscode/tasks.json
-
 ```
