@@ -5,9 +5,9 @@ int main()
     // Declaration = instruction manual
     // 선언 = 사용 설명서
     int n;
-    int *pn;
-    int **ppn;
-    int ***pppn;
+    int* pn;
+    int** ppn;
+    int*** pppn;
 
     n = 42;
     pn = &n;
