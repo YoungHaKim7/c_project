@@ -11,7 +11,7 @@
 project_name := `basename "$(pwd)"`
 
 # macOS
-macos_clang_which := "/usr/bin/clang-20"
+macos_clang_which := "/opt/homebrew/opt/llvm/bin/clang"
 macos_gcc_which := "/opt/homebrew/opt/gcc@15/bin/gcc-15"
 
 # linuxOS
