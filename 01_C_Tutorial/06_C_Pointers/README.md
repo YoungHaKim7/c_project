@@ -6,6 +6,10 @@
 - [.clang-format](#clang-format)
 - [Tutorial 유튜브 영상Pointers in C for Absolute Beginners - Full Course | freeCodeCamp.org](#화질-좋다pointers-in-c-for-absolute-beginners--full-course-freecodecamporg)
 
+- Pass-By-Value
+- Pass-by-reference
+
+
 # (화질 좋다)Pointers in C for Absolute Beginners – Full Course| freeCodeCamp.org[|🔝|](#link)
 - https://youtu.be/MIL2BK02X8A?si=5Ib3eYWmTEFAK-c4
 
@@ -60,8 +64,9 @@ int   n, *pn, **pn2;
 - 포인터 FAQ
   - 값으로 전달하는 것에 비해 포인터를 인수로 전달하는 것의 장점
 
-# Pass-By-Value
-- 39min 9sec
+<hr />
+
+# Pass-By-Value[|🔝|](#link)
 - Easy to understand
   - You just pass copies, nothing fancy to "dereference"
 - Safe
@@ -78,6 +83,37 @@ int   n, *pn, **pn2;
   - 복사할 구조물과 같은 큰 객체는 성능 면에서 정말 좋지 않습니다. 시간 소모적이고 메모리 집약적입니다.
 - 짧은 도달 거리(직접 접근 부족)
   - 호출된 함수는 로컬 복사본만 수정할 수 있습니다(이것은 +일 수도 있지만 ~일 수도 있습니다)
+
+<hr />
+
+# Pass-by-reference[|🔝|](#link)
+- 40min 35sec
+- Efficiency
+  - You just pass an address, it can point to a gigantic structure, not a problem.
+
+- Direct access
+  - I can modify data outside the called function. This tric allows me to kinda "return multiple values"
+
+- Side effects
+  - I can write impossible to read code given that pointer can change values on other locations. "With great power comes great responsibility"
+
+- Complexity
+  - Taming pointers can be indeed complex, especially multilevel pointer (i.e. *****ptr)
+
+- 효율성
+  - 주소를 전달하기만 하면 문제가 아닌 거대한 구조물을 가리킬 수 있습니다.
+
+- 직접 액세스
+  - 호출된 함수 외부의 데이터를 수정할 수 있습니다. 이 트리를 사용하면 "여러 값을 반환"할 수 있습니다
+
+- 부작용
+  - 포인터가 다른 위치의 값을 변경할 수 있기 때문에 코드를 읽을 수 없습니다. "큰 힘에는 큰 책임이 따릅니다."
+
+- 복잡성
+  - 포인터 길들이기는 정말 복잡할 수 있습니다. 특히 다단계 포인터(즉, *****ptr)
+
+
+<hr />
 
 # Linux or macOS[|🔝|](#link)
 ```justfile
