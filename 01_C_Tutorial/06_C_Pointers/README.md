@@ -62,6 +62,22 @@ int   n, *pn, **pn2;
 
 # Pass-By-Value
 - 39min 9sec
+- Easy to understand
+  - You just pass copies, nothing fancy to "dereference"
+- Safe
+  - Original Data won't be modified by the called function
+- Performance overhead
+  - A big object like a struct to be copied it's really bad performance-wise. Time consuming and memory intensive.
+- Short reach (Lack of direct access)
+  - Called functions can only modify local copies (this can be a + but also a ~)
+- 이해하기 쉬운
+  - 그냥 복사본을 넘기면 "비참조"할 만한 것은 없습니다
+- 안전
+  - 원본 데이터는 호출된 함수에 의해 수정되지 않습니다
+- 성과 오버헤드
+  - 복사할 구조물과 같은 큰 객체는 성능 면에서 정말 좋지 않습니다. 시간 소모적이고 메모리 집약적입니다.
+- 짧은 도달 거리(직접 접근 부족)
+  - 호출된 함수는 로컬 복사본만 수정할 수 있습니다(이것은 +일 수도 있지만 ~일 수도 있습니다)
 
 # Linux or macOS[|🔝|](#link)
 ```justfile
