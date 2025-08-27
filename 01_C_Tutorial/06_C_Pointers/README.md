@@ -4,10 +4,17 @@
   - [LinuxOS VS macOS justfile gcc세팅](linux-or-macos)
 - [Cmake](#cmake)
 - [.clang-format](#clang-format)
+
+<hr />
+
 - [Tutorial 유튜브 영상Pointers in C for Absolute Beginners - Full Course | freeCodeCamp.org](#화질-좋다pointers-in-c-for-absolute-beginners--full-course-freecodecamporg)
+
+<hr />
 
 - [Pass-By-Value](#pass-by-value)
 - [Pass-by-reference](#pass-by-reference)
+
+<hr />
 
 
 # (화질 좋다)Pointers in C for Absolute Beginners – Full Course| freeCodeCamp.org[|🔝|](#link)
