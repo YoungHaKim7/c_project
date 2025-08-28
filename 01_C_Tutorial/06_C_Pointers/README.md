@@ -1,7 +1,7 @@
 # link
 
 - [justfile(c23)](#justfilec23)
-  - [LinuxOS VS macOS justfile gcc세팅](linux-or-macos)
+  - [LinuxOS VS macOS justfile gcc세팅](#linux-or-macos)
 - [Cmake](#cmake)
 - [.clang-format](#clang-format)
 
@@ -143,12 +143,15 @@ export CXX={{gpp_which}}
 # justfile(C23[|🔝|](#link))
 
 ```justfile
-
 project_name := `basename "$(pwd)"`
 
-# which clang
+# linuxOS
 clang_which := "/usr/bin/clang-20"
 gcc_which := "/opt/gcc-15/bin/gcc"
+
+# macOS
+macos_clang_which := "/opt/homebrew/opt/llvm/bin/clang"
+macos_gcc_which := "/opt/homebrew/opt/gcc@15/bin/gcc-15"
 
 # Source and target directories
 src_dir := "./src"
@@ -156,6 +159,7 @@ target_dir := "./target"
 
 # clang-format 20
 clang_format := "clang-format-20"
+macos_clang_format := "/opt/homebrew/opt/llvm/bin/clang-format"
 
 # Files
 source := src_dir+"/main.c"
@@ -171,25 +175,46 @@ ldflags_fsanitize_object := "-g -fsanitize=address"
 ldflags_fsanitize_valgrind := "-fsanitize=address -g3"
 ldflags_optimize :=  "-Wall -O2 -pedantic -pthread -pedantic-errors -lm -Wextra -ggdb"
 
-# fmt
+# fmt .clang-format(linuxOS)
 fmt_flags := ". -regex '.*\\.\\(cpp\\|hpp\\|cc\\|cxx\\|c\\|h\\)' -exec "+clang_format+" -style=file -i {} \\;"
 
+# fmt .clang-format(macOS)
+macos_fmt_flags := ". -iname '*.cpp' -o -iname '*.hpp' -o -iname '*.cc'  -o -iname '*.c'-o -iname '*.cxx' -o -iname '*.c' -o -iname '*.h' | "+macos_clang_format+" -style=file -i --files=/dev/stdin"
 
-# (C)clang compile
+# (C)gcc compile(LinuxOS)
+[linux]
 r:
 	rm -rf target
 	mkdir -p target
 	{{gcc_which}} {{ldflags_common}} -o {{target}} {{source}}
 	{{target}}
 
-# (C)clang compile(Optimization)
+# (C)gcc compile(macOS)
+[macos]
+r:
+	rm -rf target
+	mkdir -p target
+	{{macos_gcc_which}} {{ldflags_common}} -o {{target}} {{source}}
+	{{target}}
+
+# (C)clang compile(Optimization/LinuxOS)
+[linux]
 ro:
 	rm -rf target
 	mkdir -p target
-	clang {{ldflags_optimize}} -o {{target}} {{source}}
+	{{clang_which}} {{ldflags_optimize}} -o {{target}} {{source}}
 	{{target}}
 
-# cmake compile
+# (C)clang compile(Optimization/macOS)
+[macos]
+ro:
+	rm -rf target
+	mkdir -p target
+	{{macos_clang_which}} {{ldflags_optimize}} -o {{target}} {{source}}
+	{{target}}
+
+# cmake compile(LinuxOS)
+[linux]
 cr:
 	rm -rf build
 	mkdir -p build
@@ -199,11 +224,33 @@ cr:
 	mv build.ninja CMakeCache.txt CMakeFiles cmake_install.cmake target .ninja_deps .ninja_log build
 	./build/target/{{project_name}}
 
-# zig C compile
+# cmake compile(macOS)
+[macos]
+cr:
+	rm -rf build
+	mkdir -p build
+	export CC={{macos_gcc_which}}
+	cmake -D CMAKE_C_COMPILER={{macos_gcc_which}} -G Ninja .
+	ninja
+	mv build.ninja CMakeCache.txt CMakeFiles cmake_install.cmake target .ninja_deps .ninja_log build
+	./build/target/{{project_name}}
+
+
+# zig C compile(LinuxOS)
+[linux]
 zr:
 	rm -rf target
 	mkdir -p target
 	export CC={{gcc_which}}
+	zig cc {{ldflags_common}} -o {{target}} {{source}}
+	{{target}}
+
+# zig C compile(macOS)
+[macos]
+zr:
+	rm -rf target
+	mkdir -p target
+	export CC={{macos_gcc_which}}
 	zig cc {{ldflags_common}} -o {{target}} {{source}}
 	{{target}}
 
@@ -213,14 +260,27 @@ b:
 	mkdir -p target
 	clang {{ldflags_debug}} -o {{target}} {{source}}
 
-# .clang-format init
+# .clang-format init(LinuxOS)
+[linux]
 cl:
 	rm -rf .clang-format
 	{{clang_format}} -style=WebKit -dump-config > .clang-format
 
+# .clang-format init(macOS)
+[macos]
+cl:
+	rm -rf .clang-format
+	{{macos_clang_format}} -style=WebKit -dump-config > .clang-format
+
 # .clang-format fmt
+[linux]
 fmt:
 	find {{fmt_flags}}
+
+# .clang-format fmt(macos)
+[macos]
+fmt:
+	find {{macos_fmt_flags}}
 
 # clang LLVM emit-file
 ll:
@@ -363,7 +423,6 @@ vscode:
 	echo '    ],' >> .vscode/tasks.json
 	echo '    "version": "2.0.0"' >> .vscode/tasks.json
 	echo '}' >> .vscode/tasks.json
-
 ```
 
 
@@ -378,11 +437,11 @@ string(REPLACE " " "_" ProjectId ${ProjectId})
 project(${ProjectId} LANGUAGES C)
 
 # Force GCC 15
-set(CMAKE_CC_COMPILER "/opt/gcc-15/bin/gcc")
+set(CMAKE_C_COMPILER "/opt/gcc-15/bin/gcc")
 
-set(CMAKE_CXX_STANDARD 26)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_C_STANDARD 23)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
 SET (CMAKE_C_FLAGS_INIT                "-Wall -std=c23")
 SET (CMAKE_C_FLAGS_DEBUG_INIT          "-g")
 SET (CMAKE_C_FLAGS_MINSIZEREL_INIT     "-Os -DNDEBUG")
@@ -404,7 +463,7 @@ add_compile_options(
     -Wall
     -Wextra
     -ggdb
-    -std=c23
+    # -std=c23
 )
 
 # Main executable with mandelbrot sources
