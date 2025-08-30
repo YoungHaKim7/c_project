@@ -8,6 +8,7 @@
 <hr />
 
 - [Tutorial 유튜브 영상Pointers in C for Absolute Beginners - Full Course | freeCodeCamp.org](#화질-좋다pointers-in-c-for-absolute-beginners--full-course-freecodecamporg)
+  - [Debugging 눈으로 보면서 코딩하자 굿pythontutor.com](https://pythontutor.com/visualize.html)
 
 <hr />
 
@@ -143,6 +144,7 @@ export CXX={{gpp_which}}
 # justfile(C23[|🔝|](#link))
 
 ```justfile
+
 project_name := `basename "$(pwd)"`
 
 # linuxOS
@@ -258,7 +260,11 @@ zr:
 b:
 	rm -rf target
 	mkdir -p target
-	clang {{ldflags_debug}} -o {{target}} {{source}}
+	{{clang_which}} {{ldflags_debug}} -o {{target}} {{source}}
+
+# move target
+move:
+	mv *.bc *.i *.s *.o *.ll a.out build.ninja CMakeCache.txt CMakeFiles cmake_install.cmake target .ninja_deps .ninja_log target
 
 # .clang-format init(LinuxOS)
 [linux]
@@ -286,8 +292,8 @@ fmt:
 ll:
 	rm -rf target
 	mkdir -p target
-	cp -rf {{src_dir}}/main.c ./
-	clang {{ldflags_emit_llvm}} main.c
+	cp -rf {{src_dir}}/*.* ./.
+	{{clang_which}} {{ldflags_emit_llvm}} main.c
 	mv *.ll {{target_dir}}
 	clang {{ldflags_common}} -o {{target}} {{source}}
 	mv *.cpp {{target_dir}}
@@ -297,7 +303,7 @@ ll:
 as:
 	rm -rf target
 	mkdir -p target
-	clang {{ldflags_assembly}} -o {{target}} {{source}}
+	{{clang_which}} {{ldflags_assembly}} -o {{target}} {{source}}
 	mv *.i {{target_dir}}
 	mv *.o {{target_dir}}
 	mv *.s {{target_dir}}
@@ -307,22 +313,22 @@ as:
 fsan:
 	rm -rf target
 	mkdir -p target
-	clang {{ldflags_fsanitize_address}} {{source}} -o {{target}}
-	clang {{ldflags_fsanitize_object}} {{target}}
+	{{clang_which}} {{ldflags_fsanitize_address}} {{source}} -o {{target}}
+	{{clang_which}} {{ldflags_fsanitize_object}} {{target}}
 	mv *.out {{target_dir}}
 
 # leak memory check(valgrind)
 mem:
 	rm -rf target
 	mkdir -p target
-	clang {{ldflags_fsanitize_valgrind}} {{source}} -o {{target}}
+	{{clang_which}} {{ldflags_fsanitize_valgrind}} {{source}} -o {{target}}
 	valgrind --leak-check=full {{target}}
 
 # object file emit-file
 obj:
 	rm -rf target
 	mkdir -p target
-	clang {{ldflags_assembly}} -o {{target}} {{source}}
+	{{clang_which}} {{ldflags_assembly}} -o {{target}} {{source}}
 	mv *.ii {{target_dir}}
 	mv *.o {{target_dir}}
 	mv *.s {{target_dir}}
@@ -333,7 +339,7 @@ obj:
 xx:
 	rm -rf target
 	mkdir -p target
-	clang {{ldflags_fsanitize_valgrind}} {{source}} -o {{target}}
+	{{clang_which}} {{ldflags_fsanitize_valgrind}} {{source}} -o {{target}}
 	xxd -c 16 {{target}}
 
 # clean files
@@ -361,6 +367,69 @@ init:
 	echo '    printf("Hello world C lang ");' >> src/main.c
 	echo '    return 0;' >> src/main.c
 	echo '}' >> src/main.c
+
+# Debugging(VSCode codelldb ver)
+codelldb:
+	rm -rf .vscode
+	mkdir -p .vscode
+	echo '{' > .vscode/launch.json
+	echo '    "version": "0.2.0",' >> .vscode/launch.json
+	echo '    "configurations": [' >> .vscode/launch.json
+	echo '        {' >> .vscode/launch.json
+	echo '            "type": "lldb",' >> .vscode/launch.json
+	echo '            "request": "launch",' >> .vscode/launch.json
+	echo '            "name": "Launch",' >> .vscode/launch.json
+	echo '            "program": "${workspaceFolder}/build/target/${workspaceFolderBasename}",' >> .vscode/launch.json
+	echo '            "args": [],' >> .vscode/launch.json
+	echo '            "cwd": "${workspaceFolder}"' >> .vscode/launch.json
+	echo '            // "preLaunchTask": "C/C++: clang build active file"' >> .vscode/launch.json
+	echo '        },' >> .vscode/launch.json
+	echo '        {' >> .vscode/launch.json
+	echo '            "name": "gcc - Build and debug active file",' >> .vscode/launch.json
+	echo '            "type": "lldb",' >> .vscode/launch.json
+	echo '            "request": "launch",' >> .vscode/launch.json
+	echo '            "program": "${fileDirname}/build/target/${workspaceFolderBasename}",' >> .vscode/launch.json
+	echo '            "args": [],' >> .vscode/launch.json
+	echo '            "stopAtEntry": false,' >> .vscode/launch.json
+	echo '            "cwd": "${fileDirname}",' >> .vscode/launch.json
+	echo '            "environment": [],' >> .vscode/launch.json
+	echo '            "externalConsole": false,' >> .vscode/launch.json
+	echo '            "MIMode": "lldb"' >> .vscode/launch.json
+	echo '            // "tasks": "C/C++: clang build active file"' >> .vscode/launch.json
+	echo '        }' >> .vscode/launch.json
+	echo '    ]' >> .vscode/launch.json
+	echo '}' >> .vscode/launch.json
+	echo '{' > .vscode/tasks.json
+	echo '    "tasks": [' >> .vscode/tasks.json
+	echo '        {' >> .vscode/tasks.json
+	echo '            "type": "C_Cpp_Build",' >> .vscode/tasks.json
+	echo '            "label": "C/C++: clang build active file",' >> .vscode/tasks.json
+	echo '            "command": "{{clang_which}}",' >> .vscode/tasks.json
+	echo '            "args": [' >> .vscode/tasks.json
+	echo '                "-c",' >> .vscode/tasks.json
+	echo '                "-fcolor-diagnostics",' >> .vscode/tasks.json
+	echo '                "-fansi-escape-codes",' >> .vscode/tasks.json
+	echo '                "-g",' >> .vscode/tasks.json
+	echo '                "${file}",' >> .vscode/tasks.json
+	echo '                "-o",' >> .vscode/tasks.json
+	echo '                "${fileDirname}/build/target/${workspaceFolderBasename}"' >> .vscode/tasks.json
+	echo '            ],' >> .vscode/tasks.json
+	echo '            "options": {' >> .vscode/tasks.json
+	echo '                "cwd": "${fileDirname}"' >> .vscode/tasks.json
+	echo '            },' >> .vscode/tasks.json
+	echo '            "problemMatcher": [' >> .vscode/tasks.json
+	echo '                "$gcc"' >> .vscode/tasks.json
+	echo '            ],' >> .vscode/tasks.json
+	echo '            "group": {' >> .vscode/tasks.json
+	echo '                "kind": "build",' >> .vscode/tasks.json
+	echo '                "isDefault": true' >> .vscode/tasks.json
+	echo '            },' >> .vscode/tasks.json
+	echo '            "detail": "Task generated by Debugger."' >> .vscode/tasks.json
+	echo '        }' >> .vscode/tasks.json
+	echo '    ],' >> .vscode/tasks.json
+	echo '    "version": "2.0.0"' >> .vscode/tasks.json
+	echo '}' >> .vscode/tasks.json
+
 
 # Debugging(VSCode)
 vscode:
