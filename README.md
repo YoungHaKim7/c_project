@@ -388,7 +388,7 @@ https://economiceco.tistory.com/14882
 
 <hr>
 
-# 유료$paid독하게 되새기는 C 프로그래밍[[🔝]](#link)
+# 유료$paid독하게 되새기는 C 프로그래밍[|🔝|](#link)
 
 https://inf.run/W34T
 
