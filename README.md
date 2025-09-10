@@ -2,13 +2,25 @@
 - [Java vs C 용량 비교 변수 범위](#java-vs-c-data-represintationsizse-of-objectsin-bytes)
 - [c-operator-precedence](#c-operator-precedence)
 
+- C/C++
+  - [온라인으로 디버깅 된다. 완전 최고..https://www.onlinegdb.com/online_c++_debugger](https://www.onlinegdb.com/online_c++_debugger)
+
+
+
 <hr>
+
+# 여기에 다 정리중.(C++26)
+- https://github.com/YoungHaKim7/cpp26_pthread_cmake_just_sample
 
 # vim tab setting[[🔝]](#link)
 
 ```
 set tabstop=2
 set shiftwidth=2
+
+# tab 4칸 설정
+set tabstop=4
+set shiftwidth=4
 ```
 
 <hr>
