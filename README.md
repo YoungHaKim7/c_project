@@ -9,8 +9,13 @@
 
 <hr>
 
-# 여기에 다 정리중.(C++26)
-- https://github.com/YoungHaKim7/cpp26_pthread_cmake_just_sample
+# 여기에 다 정리중.(C23 & C++23&26)
+
+- C23
+  - https://github.com/YoungHaKim7/c23_pthread_cmake_just_sample
+
+- C++23 & 26
+  - https://github.com/YoungHaKim7/cpp26_pthread_cmake_just_sample
 
 # vim tab setting[[🔝]](#link)
 
