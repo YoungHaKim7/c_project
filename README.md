@@ -1,4 +1,6 @@
 # Link
+
+- [(외부링크)C언어 Wiki에 잘 정리됨](https://en.wikipedia.org/wiki/C_(programming_language))
 - [Java vs C 용량 비교 변수 범위](#java-vs-c-data-represintationsizse-of-objectsin-bytes)
 - [c-operator-precedence](#c-operator-precedence)
 
