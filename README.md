@@ -11,13 +11,18 @@
 
 <hr>
 
-# 여기에 다 정리중.(C23 & C++23&26)
+# 여기에 다 정리중.(C23 & C++14 / 23/ 26)
 
-- C23
+- C23(build + cmake)
   - https://github.com/YoungHaKim7/c23_pthread_cmake_just_sample
 
-- C++23 & 26
-  - https://github.com/YoungHaKim7/cpp26_pthread_cmake_just_sample
+- C++
+  - C++98/03/11/14/17/20
+    - https://github.com/YoungHaKim7/cpp_training2024
+  - C++23/26/29
+    - https://github.com/YoungHaKim7/cpp23_26_project
+    - 빌드 & cmake
+      - https://github.com/YoungHaKim7/cpp26_pthread_cmake_just_sample
 
 # vim tab setting[[🔝]](#link)
 
