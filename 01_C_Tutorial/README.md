@@ -4,7 +4,7 @@
   - 18시간짜리
     - https://youtu.be/PaPN51Mm5qQ?si=9xATMFLWIjy-Q9MQ
     - eBook
-    - https://www.cc4e.com/index.php?next=/book/
+      - https://www.cc4e.com/index.php?next=/book/
 
 # 쉽고 좋다.(C/C++교재) 완전 쉬운거
 - https://learn.onlinegdb.com/
