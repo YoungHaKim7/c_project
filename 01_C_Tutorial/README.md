@@ -3,6 +3,8 @@
 - https://youtu.be/j-_s8f5K30I?si=7GusIq2PSS3y9UnA
   - 18시간짜리
     - https://youtu.be/PaPN51Mm5qQ?si=9xATMFLWIjy-Q9MQ
+    - eBook
+    - https://www.cc4e.com/index.php?next=/book/
 
 # 쉽고 좋다.(C/C++교재) 완전 쉬운거
 - https://learn.onlinegdb.com/
