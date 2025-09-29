@@ -5,6 +5,8 @@
     - https://youtu.be/PaPN51Mm5qQ?si=9xATMFLWIjy-Q9MQ
     - eBook
       - https://www.cc4e.com/index.php?next=/book/
+        - C기초(내가 다시 정리함)
+          - https://github.com/YoungHaKim7/C_Programming_Kernigan_and_Ritchie
 
 # 쉽고 좋다.(C/C++교재) 완전 쉬운거
 - https://learn.onlinegdb.com/
