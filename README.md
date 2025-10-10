@@ -23,6 +23,10 @@
     - https://github.com/YoungHaKim7/cpp23_26_project
     - 빌드 & cmake
       - https://github.com/YoungHaKim7/cpp26_pthread_cmake_just_sample
+- (정리중..251010) 러스트(Rust) 개발자를 위한 C언어 기초(C23) && C++23/26 기초 && zig
+  - https://github.com/YoungHaKim7/C_Programming_Kernigan_and_Ritchie
+
+<hr />
 
 # vim tab setting[[🔝]](#link)
 
