@@ -1,4 +1,10 @@
+# C언어) UB 못 찾으면, 마지막 히든 카드는 역시 GDB
+- [210418 GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands | Low Level](https://youtu.be/Dq8l1_-QgAc?si=FfcLya9Q6Kt-k2AL)
+
+<hr />
+
 # macOS지원되는 valgrind
+
 - https://github.com/LouisBrunner/valgrind-macos
 
 # Windows Visual Studio에서 (AddressSanitizer 세팅 방법)
