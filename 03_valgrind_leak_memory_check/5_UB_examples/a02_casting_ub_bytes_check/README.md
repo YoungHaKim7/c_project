@@ -12,7 +12,7 @@
                 src/main.c \
                 -o ./target/a02_casting_ub_bytes_check
 
-…ak_memory_check/5_UB_examples/a02_casting_ub_bytes_check on  main [!?] via △ v4.4.3
+# 컴파일 후 실행
 ❯ ./target/a02_casting_ub_bytes_check
 x address = 0x7b98d19f0020
 x value   = 42
@@ -38,6 +38,7 @@ $ /usr/bin/clang \
                 src/main.c \
                 -o ./target/a02_casting_ub_bytes_check
 
+# 컴파일 후 실행
 $ ./target/a02_casting_ub_bytes_check
 x address = 0x7ffc152578b8
 x value   = 42
@@ -55,10 +56,16 @@ x bytes   = 64 00 00 00
 - valgrind로 찾아보기(LinuxOS)
 
 ```bash
-$ /usr/bin/clang -O0 -g -std=c23 -pedantic -pthread -pedantic-errors -lm \
+$ /usr/bin/clang \
+                -O0 -g \
+                -std=c23 \
+                -pedantic -pthread \
+                -pedantic-errors -lm \
                 -Wall -Wextra -ggdb -Werror \
-                src/main.c -o ./target/a02_casting_ub_bytes_check
+                src/main.c \
+                -o ./target/a02_casting_ub_bytes_check
 
+# 컴파일 후 실행
 # valgrind
 $ valgrind --leak-check=full target/a02_casting_ub_bytes_check
 ==30070== Memcheck, a memory error detector
