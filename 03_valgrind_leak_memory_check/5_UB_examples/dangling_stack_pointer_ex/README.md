@@ -28,7 +28,7 @@ src/main.c:6:13: warning: address of stack memory associated with local variable
       |             ^
 1 warning generated.
 
-…eak_memory_check/5_UB_examples/dangling_stack_pointer_ex on  main [!?] via △ v4.4.3
+# 컴파일된건 실행
 ❯ target/a01_dangling
 =================================================================
 ==22147==ERROR: AddressSanitizer: stack-use-after-return on address 0x7b57e3cf0020 at pc 0x561a50410746 bp 0x7ffde8a52f20 sp 0x7ffde8a52f18
