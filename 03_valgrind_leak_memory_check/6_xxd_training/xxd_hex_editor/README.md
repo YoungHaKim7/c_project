@@ -15,6 +15,6 @@ $ xxd ./target/debug/xxd_hex_editor | grep "main"
 00004210: 6179 5f65 6e74 7279 006d 6169 6e2e 6300  ay_entry.main.c.
 00004300: 7400 6d61 696e 005f 5f54 4d43 5f45 4e44  t.main.__TMC_END
 
-
+# 프린트하니 너무 많이 나오니 , 파일로 저장해서 보기
 $ xxd ./target/debug/xxd_hex_editor > xxd_test.txt
 ```
