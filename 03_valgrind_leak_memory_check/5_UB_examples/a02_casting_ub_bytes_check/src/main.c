@@ -8,8 +8,6 @@ int main(void) {
 
     unsigned char *x_bytes = (unsigned char *)&x;
 
-    printf("x bytes   = ");
-
     for (size_t i = 0; i < sizeof x; ++i) {
         printf("%02x ", x_bytes[i]);
     }
@@ -21,7 +19,7 @@ int main(void) {
     printf("p address = %p\n", (void *)p);
     printf("*p value  = %d\n", *p);
 
-    printf("p bytes   = ");
+    printf("p bytes(Big endian sytle)   = ");
 
     unsigned char *p_bytes = (unsigned char *)&p;
 
