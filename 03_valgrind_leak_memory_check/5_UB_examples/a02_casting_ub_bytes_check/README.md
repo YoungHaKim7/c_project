@@ -19,7 +19,7 @@ x value   = 42
 2a 00 00 00
 p address = 0x7b98d19f0020
 *p value  = 42
-p bytes(Big endian sytle)   = 20 00 9f d1 98 7b 00 00
+p bytes(Little endian sytle)   = 20 00 9f d1 98 7b 00 00
 
 After *p = 100:
 x value   = 42
@@ -45,7 +45,7 @@ x value   = 42
 2a 00 00 00
 p address = 0x7ffc152578b8
 *p value  = 42
-p bytes(Big endian sytle)   = b8 78 25 15 fc 7f 00 00
+p bytes(Little endian sytle)   = b8 78 25 15 fc 7f 00 00
 
 After *p = 100:
 x value   = 42
@@ -78,7 +78,7 @@ x value   = 42
 2a 00 00 00
 p address = 0x1ffeffffa8
 *p value  = 42
-p bytes(Big endian sytle)   = a8 ff ff fe 1f 00 00 00
+p bytes(Little endian sytle)   = a8 ff ff fe 1f 00 00 00
 
 After *p = 100:
 x value   = 42

@@ -19,7 +19,7 @@ int main(void) {
     printf("p address = %p\n", (void *)p);
     printf("*p value  = %d\n", *p);
 
-    printf("p bytes(Big endian sytle)   = ");
+    printf("p bytes(Little endian sytle)   = ");
 
     unsigned char *p_bytes = (unsigned char *)&p;
 
