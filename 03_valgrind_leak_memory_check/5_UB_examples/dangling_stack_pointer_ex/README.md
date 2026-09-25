@@ -3,7 +3,18 @@
 - 컴파일 자체가 안된다.
 
 ```bash
-/usr/bin/clang -O0 -g -std=c23 -pedantic -pthread -pedantic-errors -lm -Wall -Wextra -ggdb -Werror src/main.c -o dangling_stack_pointer_ex
+/usr/bin/clang \
+          -O0 -g \
+          -std=c23 \
+          -pedantic -pthread \
+          -pedantic-errors \
+          -lm -Wall \
+          -Wextra \
+          -ggdb \
+          -Werror \
+          src/main.c \
+          -o dangling_stack_pointer_ex
+
 src/main.c:6:13: error: address of stack memory associated with local variable 'x'
       returned [-Werror,-Wreturn-stack-address]
     6 |     return &x;
